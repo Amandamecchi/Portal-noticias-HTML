@@ -1,0 +1,37 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+  }
+.container-carreira {
+    display: flex;
+    width: 900px;
+    height: 40%;
+    border-radius: 20px;
+    /*deixar maior dos lados*/
+}
+
+.conteudo-principal {
+    width: 70%;
+    padding: 40px;
+}
+.content img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.content h1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.conteudo-principal  p {
+    font-size: 30px;
+    margin-top: 10%;
+}
+.sidebar {
+    width: 30%;
+    background-color: #e33434;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
