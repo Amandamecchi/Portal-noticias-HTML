@@ -199,3 +199,8 @@ img {
   max-width: 700px;
   max-height: 700px; 
 }
+
+.logo-sesi, .logo-senai {
+  width: 250px;
+  height: 150px;
+}
