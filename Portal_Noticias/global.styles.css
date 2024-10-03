@@ -1,4 +1,7 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
 }
@@ -15,7 +18,7 @@
   margin: 0 30px;
   display: flex;
   justify-content: space-between;
-  background-color: #e30613;
+  background-color: #b83e47;
 }
 
 .header-nav {
@@ -128,8 +131,9 @@
   text-align: center;
 }
   
-#sesi-logo {
+.sesi-logo, .senai-logo {
   margin: 0 40px;
+  width: 15px;
 }
   
 .footer {
@@ -158,8 +162,9 @@
   padding: 30px 0 20px 0;
 }
   
-.senai h3, .sesi h3 {
+.end-senai h3, .end-sesi h3 {
   text-align: left;
+
 }
   
 .senai p, .sesi p {
@@ -195,7 +200,7 @@ img {
   max-height: 700px; 
 }
 
-.sesi {
+.logo-sesi, .logo-senai {
   width: 250px;
   height: 250px;
 }
