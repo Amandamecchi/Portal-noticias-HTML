@@ -1,6 +1,15 @@
 * {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .site-header {
@@ -37,6 +46,29 @@
     font-size: 1.3rem;
     cursor: pointer;
     transition: transform 0.3s ease;
+}
+
+.content {
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.content div {
+    text-align: center;
+}
+
+.content img {
+    width: 500px;
+    height: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .footer {
