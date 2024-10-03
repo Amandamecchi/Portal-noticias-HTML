@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    font-family: Arial;
  }
  
  .container_header{
@@ -28,13 +29,13 @@
  .divisor{
     background-color: rgb(255, 255, 255);
     height: 4.5rem;
-    width: 0.1rem;
-    
+    width: 0.2rem;
+    margin-left: auto;
  }
  
  .icon_menu img{
     height: 60%;
-    width: 60%;
+    width: 90%;
  }
  
  .nav{
@@ -42,9 +43,9 @@
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    gap: 1rem;
+    gap: 5rem;
  }
  
  .nav a{
