@@ -1,0 +1,153 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-header {
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    background-color: #e30613;
+    padding: 1rem 0;
+}
+
+.logo-header {
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 60px;
+    margin-right: 50px;
+}
+
+.links a {
+    color: #ffffff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.content {
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.content div {
+    text-align: center;
+}
+
+.content img {
+    width: 500px;
+    height: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #9a1915;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+  }
+    
+  .footer .icones {
+    background-color: #e30613;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    
+  .footer .icones img {
+    display: inline-block;
+    margin-left: 25px;
+  }
+
+.address-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.senai, .sesi {
+    width: 45%;
+    text-align: left;
+}
+
+.senai h3, .sesi h3 {
+    margin: 0;
+}
+
+.senai p, .sesi p {
+    margin: 0;
+}
+
+.footer .icones img {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.content {
+    margin: 20px 0; 
+    text-align: center; 
+}
+
+.image-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px; 
+}
+
+.image-container p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.text-container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.text-container p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+}
