@@ -14,13 +14,13 @@ header {
 }
 
 .logo-header img {
-    max-height: 50px;
-    margin-right: 10px;
+    max-height: 90px;
+    margin-right: 50px;
 }
 
 .vertical-line {
-    border-left: 2px solid white;
-    height: 50px;
+    border-left: 1px solid white;
+    height: 90px;
 }
 
 .header-nav ul {
@@ -184,4 +184,5 @@ h1 {
         width: 100%;
     }
 }
+
 
