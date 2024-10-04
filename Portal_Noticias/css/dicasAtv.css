@@ -164,7 +164,7 @@ h1 {
 }
 
 .member img {
-    width: 100%;
+    width: 100px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -188,10 +188,25 @@ h1 {
     background-color: #9a1915;
     color: white;
     margin-top: 50px;
+    text-align: center;
 }
-
+    
 .footer .icones {
     background-color: #e30613;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.footer .icones img {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .senai {
@@ -227,15 +242,4 @@ h1 {
     text-align: left;
 }
 
-.footer .icones img {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-
-.icones {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
