@@ -35,7 +35,7 @@ body {
 }
 
 .header-banner {
-    background-image: url('./../images/educaçaõ-física.jpg');
+    background-image: url('./../images/eFisica.jpg');
     background-size: cover;
     height: 400px;
     position: relative;
@@ -53,7 +53,7 @@ body {
 .topics-header {
     display: flex;
     justify-content: center;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     padding: 10px 0;
 }
 
@@ -78,12 +78,11 @@ body {
 }
 
 .conteudo-principal {
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 3000px; /*pra deixar o texto ocupar uma linha normal*/
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     text-align: center;
+
 }
 
 .conteudo-principal img {
@@ -106,10 +105,10 @@ h1 {
 p {
     padding-bottom: 1%;
     padding-top: 1%;
-    font-size: 30px;
-    text-align: left;
-    margin-left: 2%;
-    margin-right: 2%;
+    font-size: 30px; 
+    text-align: justify; 
+    margin-left: 5%; 
+    margin-right: 5%; 
 }
 
 .icones {
@@ -231,13 +230,13 @@ p {
     width: 100%;
     height: auto;
     display: block;
+    margin-bottom: 0%;
 }
 
 .button-container p {
     margin-top: 10px;
     font-weight: bold;
-    color: #000000;
-    border-bottom: 2%;
+    color: #050505;
 }
 
 @media screen and (max-width: 768px) {
@@ -251,4 +250,5 @@ p {
         height: auto;
     }
 }
+
 
