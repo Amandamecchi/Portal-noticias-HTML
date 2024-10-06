@@ -35,7 +35,7 @@ body {
 }
 
 .header-banner {
-    background-image: url('./../images/educaçaõ-física.jpg');
+    background-image: url('./../images/eFisica.jpg');
     background-size: cover;
     height: 400px;
     position: relative;
@@ -74,7 +74,59 @@ body {
 }
 
 /*conteúdo aquii*/
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 3%;
+    color: rgb(92, 21, 21);
+}
+p{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 30px; 
+    text-align: justify;
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 3%;
+    color: rgb(105, 18, 18);
+}
 
+ul {
+    list-style-type: disc;
+    padding-left: 2em;
+    text-align: justify; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+    font-size: 30px; 
+    margin-top: 3%;
+}
+ul p{
+    text-align: left;
+    margin: 1%;
+}
+
+.container-turismo img {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #070505; 
+    cursor: pointer; 
+    transition: 0.4s ease-in-out; 
+}
+.container-turismo img:hover {
+    box-shadow: 0 0 20px #101720, 0 0 40px #2d2f31,
+      0 0 60px #181e24; 
+  }
 
 
 
