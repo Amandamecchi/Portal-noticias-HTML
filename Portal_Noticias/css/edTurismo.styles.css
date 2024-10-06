@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+.logo-header img {
+    max-height: 90px;
+    margin-right: 0px;
+}
+
+.vertical-line {
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 90px;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 5;
+    padding: 0;
+}
+
+.header-nav ul li {
+    margin-left: 20px;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#icones-header i {
+    color: white;
+}
+
+.header-banner {
+    background-image: url('./../images/educaçaõ-física.jpg');
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.aba-text {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.aba-text-dicas {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container-carreira {
+    justify-content: center;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.icones a {
+    margin: 0 10px;
+}
+
+.icones img {
+    width: 25px;
+    height: 25px;
+}
+
+.enderecos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.enderecos div {
+    max-width: 300px;
+}
+
+.enderecos h3 {
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+    .topics-header {
+        flex-wrap: wrap;
+    }
+
+    .aba-item {
+        margin-bottom: 10px;
+    }
+
+    .conteudo-principal img {
+        height: auto;
+    }
+
+    .enderecos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .enderecos div {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    .topics-header {
+        flex-direction: column;
+    }
+}
+/*conteúdo aquii*/
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(226, 26, 26, 0.1);
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    display: flex;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1em;
+    color: #000000;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 3.5em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+}
