@@ -13,22 +13,27 @@
     flex-direction: row;
     padding: 0.5rem;
     gap: 0.33rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
  }
  
  .container_img {
-    height: 6rem;
-    width: 30%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
  }
  
  .container_img img{
     height: 100%;
-    width: 100%;
+    width: auto;
+    margin-right: 0.5rem;
  }
  
  .divisor{
     background-color: rgb(255, 255, 255);
-    height: 4.5rem;
+    height: 5rem;
     width: 0.2rem;
     margin-left: auto;
  }
@@ -36,6 +41,10 @@
  .icon_menu img{
     height: 60%;
     width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
  }
  
  .nav{
@@ -61,3 +70,55 @@
     justify-content: center;
     align-items: center;
  }
+
+ footer {
+    background-color: #9a1915;
+    width: 100%;
+    padding: 1rem 0;  
+    margin-top: auto; 
+   }
+  
+  .footer .icones {
+    background-color: #e30613;
+    padding: 1rem;
+     display: flex;
+     justify-content: space-around;
+  }
+  
+  .footer .icones img {
+    display: inline-block;
+  }
+  
+  .senai, .sesi {
+    width: 20%;
+    display: inline-block;
+  }
+  
+  .end-senai h3, .end-sesi h3 {
+    text-align: left;
+
+  }
+  
+  .senai p, .sesi p {
+    text-align: left;
+  }
+  
+  .icones {
+    display: flex;
+  }
+
+  .container-artes {
+    display: flex;
+  }
+  
+  .button {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 700px;
+  }
+
+  .logo-sesi, .logo-senai {
+    width: 250px;
+  }
