@@ -38,14 +38,14 @@ img {
 }
 
 .conteudo h1 {
+  font-size: 50px;
+  color: #a52a2a;
   text-align: center;
-  font-size: 24px;
-  color: #000000;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .conteudo p {
-  font-size: 16px;
+  font-size: 30px;
   line-height: 1.6;
   color: #000000;
 }
@@ -68,4 +68,3 @@ img {
   height: auto;
   border-radius: 8px;
 }
-
