@@ -73,6 +73,7 @@ body {
     border-radius: 5px;
 }
 
+
 .personal img{
     display: flex;
     margin: 0 auto;
@@ -119,3 +120,4 @@ p{
     box-shadow: 0 0 20px #101720, 0 0 40px #2d2f31,
     0 0 60px #181e24; 
 }
+
