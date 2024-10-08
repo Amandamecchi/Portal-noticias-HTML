@@ -35,7 +35,7 @@ body {
 }
 
 .header-banner {
-    background-image: url('./../images/educaçaõ-física.jpg');
+    background-image: url('./../images/eFisica.jpg');
     background-size: cover;
     height: 400px;
     position: relative;
@@ -83,4 +83,39 @@ body {
     box-shadow: 0 0 20px #070505; 
     cursor: pointer; 
     transition: 0.4s ease-in-out; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 3%;
+    color: rgb(92, 21, 21);
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 2em;
+    text-align: justify; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+    font-size: 30px; 
+    margin-top: 3%;
+}
+p{
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    font-size: 30px; 
+    text-align: justify;
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
+.cref img{
+    margin-top: 2%;
+    margin-bottom: 50px;
+}
+.cref img:hover{
+    box-shadow: 0 0 20px #101720, 0 0 40px #2d2f31,
+    0 0 60px #181e24; 
 }
