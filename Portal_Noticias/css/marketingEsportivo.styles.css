@@ -35,7 +35,7 @@ body {
 }
 
 .header-banner {
-    background-image: url('./../images/educaçaõ-física.jpg');
+    background-image: url('./../images/eFisica.jpg');
     background-size: cover;
     height: 400px;
     position: relative;
@@ -72,3 +72,80 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+.marketing-esportivo {
+    padding: 20px;
+    text-align: center;
+}
+.marketing-esportivo h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.marketing-esportivo p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.marketing-imagem {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.marketing-imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #070505; 
+    cursor: pointer; 
+    transition: 0.4s ease-in-out;
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 3%;
+    color: rgb(92, 21, 21);
+}
+p{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-size: 30px; 
+    text-align: justify;
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 2em;
+    text-align: justify; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+    font-size: 30px; 
+    margin-top: 3%;
+}
+
+@media (max-width: 768px) {
+    .marketing-imagem {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .marketing-imagem  img {
+        width: 90%;
+        max-width: 400px;
+    }
+}
+.foto-dois img{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #070505; 
+    cursor: pointer; 
+    transition: 0.4s ease-in-out;
+}
+
