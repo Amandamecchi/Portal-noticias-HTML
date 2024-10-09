@@ -124,7 +124,6 @@
   text-align: center;
 } 
 
-
 .logo-header img {
   max-height: 90px;
   margin-right: 0px;
@@ -195,9 +194,6 @@
   border-radius: 5px;
 }
 
-  
-/**/
-
 .footer {
   background-color: #9a1915;
   color: white;
@@ -239,7 +235,6 @@
   justify-content: center;
 }
 
-/**/
 .container-artes {
   display: flex;
   justify-content: space-around;
