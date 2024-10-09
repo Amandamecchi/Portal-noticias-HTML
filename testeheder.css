@@ -20,6 +20,9 @@
 
  body {
   background-color: rgb(122, 122, 122);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
  }
  
  .container_img {
@@ -42,6 +45,13 @@
     align-items: center;
  }
  
+ .divisor-footer {
+   background-color: rgb(255, 255, 255);
+    height: 3rem;
+    width: 0.2rem;
+    align-items: center;
+  }
+
  .icon_menu img{
     height: 60%;
     width: 90%;
@@ -82,9 +92,26 @@
  .barra-redes{
     background-color: #9a1915;
     width: 100%;
-    padding: 0.5rem 0;  
+    padding: 0.3rem;  
     margin-top: auto;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .barra-icones {
+    display: flex;
+    height: 100%;
+    background-color: #e30613;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   }
+
+   .barra-redes, .icones img {
+   display: inline-block;
+   width: 20px;
+   height: 20px;
    }
 
   footer {
@@ -93,41 +120,23 @@
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #9a1915;
   color: white;
   flex-wrap: wrap;
+  position: relative;
+  color: white;
+  flex-wrap: wrap;
+  position: relative;
   }
-  
-  .barra-redes .icones {
-    background-color: #e30613;
-    padding: 0.5rem;
-     display: flex;
-     justify-content: space-around;
-  }
-  
-  .barra-redes .icones img {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-  }
-  
-  .senai, .sesi {
-    width: 20%;
-    display: inline-block;
-  }
-  
+
   .end-senai h3, .end-sesi h3 {
     text-align: left;
   }
   
   .senai p, .sesi p {
     text-align: left;
-  }
-  
-  .icones {
-    display: flex;
-    height: 100%;
   }
 
   nav ul {
@@ -147,3 +156,4 @@
     color: white;
     font-size: 1.2rem;
   }
+ 
