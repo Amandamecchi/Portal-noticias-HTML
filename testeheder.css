@@ -1,149 +1,137 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-    font-family: Arial;
- }
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-family: Arial;
+}
+
+body {
+   background-color: rgb(122, 122, 122);
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
  
- .container_header{
-    background-color: #ee1616;
-    height: 6rem;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    padding: 0.5rem;
-    gap: 0.33rem;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 2rem;
+.container_header{
+   background-color: #ee1616;
+   height: 6rem;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   padding: 0.5rem;
+   gap: 0.33rem;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 2rem;
+}
+
+.container_img {
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+ 
+.container_img img{
+   height: 100%;
+   width: 100%;
+   margin-right: 0.5rem;
+}
+ 
+.divisor{
+   background-color: rgb(255, 255, 255);
+   height: 5rem;
+   width: 0.2rem;
+   justify-content: center;
+}
+ 
+.icon_menu img{
+   height: 60%;
+   width: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 10px;
+}
+ 
+.nav{
+   width: 62%;
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+   justify-content:center;
+   align-items: center;
+   gap: 5rem;
+}
+ 
+nav ul {
+   list-style: none;
+   display: flex;
+   gap: 5rem;
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li {
+   display: inline;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: white;
+   font-size: 1.2rem;
+}
+ 
+.icon_menu{
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+   gap: 5rem;
+   margin-right: 1rem;
+   width: 5%;
+   height: 70%;
  }
 
- body {
-  background-color: rgb(122, 122, 122);
- }
- 
- .container_img {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
- }
- 
- .container_img img{
-    height: 100%;
-    width: auto;
-    margin-right: 0.5rem;
- }
- 
- .divisor{
-    background-color: rgb(255, 255, 255);
-    height: 5rem;
-    width: 0.2rem;
-    align-items: center;
- }
- 
- .icon_menu img{
-    height: 60%;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
- }
- 
- .nav{
-    width: 62%;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content:center;
-    align-items: center;
-    gap: 5rem;
- }
- 
- .nav a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
- }
- 
- .icon_menu{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    margin-right: 1rem;
-    width: 5%;
-    height: 70%;
- }
+.barra-icones {
+   display: flex;
+   height: 100%;
+   background-color: #e30613;
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   gap: 5rem;
+}
 
- .barra-redes{
-    background-color: #9a1915;
-    width: 100%;
-    padding: 0.5rem 0;  
-    margin-top: auto;
-    position: relative;
-   }
+.icones {
+   display: flex;
+   height: 100%;
+   justify-content: space-between;
+}
 
-  footer {
+.icones img {
+   display: inline-block;
+   height: 20px;
+}
+
+footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #9a1915;
   color: white;
   flex-wrap: wrap;
-  }
-  
-  .barra-redes .icones {
-    background-color: #e30613;
-    padding: 0.5rem;
-     display: flex;
-     justify-content: space-around;
-  }
-  
-  .barra-redes .icones img {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-  }
-  
-  .senai, .sesi {
-    width: 20%;
-    display: inline-block;
-  }
-  
-  .end-senai h3, .end-sesi h3 {
-    text-align: left;
-  }
-  
-  .senai p, .sesi p {
-    text-align: left;
-  }
-  
-  .icones {
-    display: flex;
-    height: 100%;
-  }
+  position: relative;
+}
 
-  nav ul {
-    list-style: none;
-     display: flex;
-     gap: 5rem;
-     margin: 0;
-     padding: 0;
-  }
-
-  nav ul li {
-    display: inline;
-  }
-
-  nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-  }
+.divisor-footer {
+   background-color: rgb(255, 255, 255);
+   height: 7rem;
+   width: 0.2rem;
+   align-items: center;
+}
