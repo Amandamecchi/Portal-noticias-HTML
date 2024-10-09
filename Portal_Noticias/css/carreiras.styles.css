@@ -1,6 +1,7 @@
-body {
+body { 
     font-family: Arial, sans-serif;
     padding: 0;
+    margin: 0;
 }
 
 .logo-header img {
@@ -16,7 +17,7 @@ body {
 .header-nav ul {
     list-style: none;
     display: flex;
-    margin: 5;
+    margin: 5px;
     padding: 0;
 }
 
@@ -74,8 +75,6 @@ body {
 }
 
 
-/**/
-
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -117,14 +116,14 @@ body {
     display: block;
     margin-bottom: 0%;
     overflow: hidden;
-
 }
 
 .button-container p {
-    margin-top: 1%; /*isso aqui está deixando o quadrado feio*/
+    margin-top: 1%;
     font-weight: bold;
     color: #050505;
 }
+
 p {
     padding-bottom: 1%;
     padding-top: 1%;
@@ -132,13 +131,76 @@ p {
     text-align: center; 
     margin-left: 5%; 
     margin-right: 5%; 
-    text-decoration: none; /*como tira o sublinhado feio?*/
+    text-decoration: none;
 }
-h3{
+
+h3 {
     padding-bottom: 1%;
     padding-top: 3%;
     font-size: 30px; 
     text-align: center; 
     font-weight: lighter;
 }
+
+
+
+
+@media (max-width: 600px) {
+    .header-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-banner {
+        height: 250px;
+    }
+
+    p, h3 {
+        font-size: 20px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .button-container {
+        margin: 2%;
+    }
+
+    .imagem-button {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .header-nav ul {
+        justify-content: space-around;
+    }
+
+    .header-banner {
+        height: 300px;
+    }
+
+    .button-container {
+        margin: 2%;
+    }
+
+    p, h3 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .header-nav ul {
+        justify-content: space-between;
+    }
+
+    .header-banner {
+        height: 400px;
+    }
+
+    p, h3 {
+        font-size: 30px;
+    }
+}
+
 
