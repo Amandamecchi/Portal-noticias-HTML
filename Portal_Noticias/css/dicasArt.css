@@ -1,16 +1,17 @@
 
 .conteudo-img{
-    height: 40rem;
-    border-radius: 20px;
-    width: 40rem;
-}
-.conteudo{
+    height: 25rem;
+    border-radius: 10px;
+    width: 25rem;
     justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
 }
 
 .banner{
     width: 100%;
-    height: 50rem;
+    height: 30rem;
 }
 
 .informacao{
@@ -23,4 +24,6 @@
     font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
+    justify-content: center;
+    display: flex;
 }
