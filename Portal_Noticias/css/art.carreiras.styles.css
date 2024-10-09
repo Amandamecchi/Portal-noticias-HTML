@@ -45,3 +45,67 @@
     z-index: 10; 
     transform: scale(1.1); 
 }
+
+@media (max-width: 1024px) {
+    .topics-header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .carreiras {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .carreiras-individual {
+        width: 45%;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .conteudo {
+        padding: 10px;
+    }
+
+    .footer .enderecos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .topics-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aba-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .carreiras-individual {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .conteudo {
+        padding: 5px;
+    }
+
+    .footer .enderecos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .icones {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
