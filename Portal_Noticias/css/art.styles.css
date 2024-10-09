@@ -77,3 +77,12 @@ img {
   text-align: justify;
 }
 
+.carreiras-individual {
+  position: relative;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+}
+
+.carreiras-individual:hover {
+  z-index: 10; 
+  transform: scale(1.1); 
+}

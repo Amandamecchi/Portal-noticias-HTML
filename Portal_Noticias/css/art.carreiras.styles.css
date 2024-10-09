@@ -35,3 +35,13 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
+
+.carreira h1 {
+    position: relative;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+}
+
+.carreira h1:hover {
+    z-index: 10; 
+    transform: scale(1.1); 
+}
