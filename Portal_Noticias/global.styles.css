@@ -57,12 +57,6 @@
   margin-right: 20px;
 }
   
-#line {
-  height: 5px;
-  margin: 20px auto;
-  width: 20%;
-  background-color: #9A1915;
-}
 
 .topics-header {
   display: flex;
@@ -128,13 +122,82 @@
 .container {
   padding: 40px;
   text-align: center;
+} 
+
+
+.logo-header img {
+  max-height: 90px;
+  margin-right: 0px;
 }
-  
-.sesi-logo, .senai-logo {
-  margin: 0 40px;
-  width: 15px;
+
+.vertical-line {
+  border-left: 1px solid rgb(255, 255, 255);
+  height: 90px;
 }
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 5px;
+  padding: 0;
+}
+
+.header-nav ul li {
+  margin-left: 20px;
+}
+
+.header-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#icones-header i {
+  color: white;
+}
+
+.header-banner {
+  background-image: url('/Portal_Noticias/images/home.jpg');
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.topics-header {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 10px 0;
+}
+
+.aba-item {
+  margin: 0 15px;
+}
+
+.aba-text {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.aba-text-dicas {
+  padding: 5px;
+  border-radius: 5px;
+}
+
   
+/**/
+
 .footer {
   background-color: #9a1915;
   color: white;
@@ -155,10 +218,10 @@
 }
   
 .senai, .sesi {
-  width: 20%;
+  width: 250%;
   display: inline-block;
   text-align: center;
-  padding: 30px 0 20px 0;
+  padding: 50px 0 0px 0;
 }
   
 .end-senai h3, .end-sesi h3 {
@@ -176,6 +239,7 @@
   justify-content: center;
 }
 
+/**/
 .container-artes {
   display: flex;
   justify-content: space-around;
