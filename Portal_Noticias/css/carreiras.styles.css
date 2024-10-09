@@ -1,3 +1,144 @@
-.container{
-    
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
 }
+
+.logo-header img {
+    max-height: 90px;
+    margin-right: 0px;
+}
+
+.vertical-line {
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 90px;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 5;
+    padding: 0;
+}
+
+.header-nav ul li {
+    margin-left: 20px;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#icones-header i {
+    color: white;
+}
+
+.header-banner {
+    background-image: url('/Portal_Noticias/images/edFisica-artes.jpg');
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.topics-header {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+.aba-item {
+    margin: 0 15px;
+}
+
+.aba-text {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.aba-text-dicas {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/**/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin: 3%;
+    transition: transform 0.3s;
+}
+
+.button-container:hover {
+    transform: scale(1.05);
+}
+
+.imagem-button {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 3%;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    height: 100%;
+    width: 100%;
+}
+
+.imagem-button:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.imagem-button img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0%;
+    overflow: hidden;
+
+}
+
+.button-container p {
+    margin-top: 1%; /*isso aqui está deixando o quadrado feio*/
+    font-weight: bold;
+    color: #050505;
+}
+p {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-size: 30px; 
+    text-align: center; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+    text-decoration: none; /*como tira o sublinhado feio?*/
+}
+h3{
+    padding-bottom: 1%;
+    padding-top: 3%;
+    font-size: 30px; 
+    text-align: center; 
+    font-weight: lighter;
+}
+
