@@ -140,7 +140,24 @@
     margin-top: 5px 0;
 }
 
-.link-img {
-  width: 30rem;
-  height: 30rem;
+.img-lig {
+  width: 20rem;
+  height: 15rem;
+  padding: 25px;
+  border-radius: 15%;
+}
+
+.ligacao{
+  display: flex;
+  justify-content: center;
+}
+
+.conteudo{
+  display: flex; 
+  margin-top: 30%;
+  margin-right: 20%;
+}
+
+.img-lig:hover{
+  transform: scale(1.1);
 }
