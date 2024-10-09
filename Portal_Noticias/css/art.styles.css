@@ -68,3 +68,11 @@ img {
   height: auto;
   border-radius: 8px;
 }
+
+.conteudo ul{
+  font-size: 30px;
+  line-height: 1.6;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: justify;
+}
