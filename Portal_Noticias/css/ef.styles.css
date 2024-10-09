@@ -204,6 +204,8 @@ p {
     text-align: center;
     margin: 10px;
     transition: transform 0.3s;
+    width: 20%;
+    height: 20%;
 }
 
 .button-container:hover {

@@ -198,7 +198,7 @@
   background-color: #9a1915;
   color: white;
   margin-top: 50px;
-  text-align: center;
+  text-align:center;
 }
   
 .footer .icones {
@@ -211,6 +211,8 @@
 .footer .icones img {
   display: inline-block;
   margin-left: 25px;
+  width: 30px;
+  height: 30px;
 }
   
 .senai, .sesi {
