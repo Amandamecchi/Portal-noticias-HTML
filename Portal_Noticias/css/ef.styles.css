@@ -222,7 +222,7 @@ p {
     overflow: hidden;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s;
-    height: 60%;
+    height: 100%;
     width: 100%;
 }
 
@@ -251,7 +251,7 @@ p {
     }
 
     .imagem-button img {
-        width: 150px;
+        width: 200px;
         height: auto;
     }
 }
