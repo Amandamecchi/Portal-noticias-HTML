@@ -116,6 +116,7 @@ body {
     display: block;
     margin-bottom: 0%;
     overflow: hidden;
+    margin-top: 0%;
 }
 
 .button-container p {
@@ -140,8 +141,25 @@ h3 {
     font-size: 30px; 
     text-align: center; 
     font-weight: lighter;
+    text-align: justify;
+    margin-left: 5%; 
+    margin-right: 5%; 
+    margin-bottom: 0%;
 }
-
+.textos h1{
+    color: #000000;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+}
+.textos h1:hover{
+    z-index: 10; 
+    transform: scale(1.1); 
+    cursor: pointer;
+}
 
 
 
@@ -202,5 +220,6 @@ h3 {
         font-size: 30px;
     }
 }
+
 
 
