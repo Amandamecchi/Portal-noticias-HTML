@@ -76,19 +76,19 @@ body {
     color: white;
     margin-top: 50px;
     text-align: center;
-}
+  }
     
-.footer .icones {
+  .footer .icones {
     background-color: #e30613;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
     
-.footer .icones img {
+  .footer .icones img {
     display: inline-block;
     margin-left: 25px;
-}
+  }
 
 .address-container {
     display: flex;
