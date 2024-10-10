@@ -241,6 +241,7 @@ p {
     margin-top: 10px;
     font-weight: bold;
     color: #050505;
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -263,4 +264,3 @@ ul {
     font-size: 30px; 
     margin-top: 3%;
 }
-
