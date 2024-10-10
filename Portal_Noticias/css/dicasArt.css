@@ -154,6 +154,28 @@ body{
     display: flex;
 }
 
+.arts-grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   padding: 20px;
+}
+
+.art-item {
+   text-align: center;
+}
+
+.art-item img {
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+}
+
+.art-item p {
+   margin-top: 10px;
+   font-weight: bold;
+}
+
 .footer {
     background-color: #9a1915;
     color: white;
