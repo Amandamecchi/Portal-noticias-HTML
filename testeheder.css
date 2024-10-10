@@ -16,12 +16,10 @@ body {
    height: 6rem;
    width: 100%;
    display: flex;
-   flex-direction: row;
-   padding: 0.5rem;
    gap: 0.33rem;
    align-items: center;
    justify-content: space-between;
-   padding: 0 2rem;
+   padding: 0 4rem;
 }
 
 .container-headerimg {
@@ -42,7 +40,7 @@ body {
    background-color: rgb(255, 255, 255);
    height: 5rem;
    width: 0.2rem;
-   justify-content: center;
+   margin: 0 300px;;
 }
 
 .icon_menu{
@@ -93,8 +91,9 @@ body {
 
 .menu-dropdown ul li a:hover {
    background-color: rgba(255, 255, 255, 0.356);
-   padding: 4px;
+   padding: 9px;
    border-radius: 3px;
+   margin-right: 4px;
 }
  
 .nav{
