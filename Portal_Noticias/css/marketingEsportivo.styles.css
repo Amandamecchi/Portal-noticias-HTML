@@ -105,6 +105,13 @@ h1 {
     margin-bottom: 50px;
     margin-top: 3%;
     color: rgb(92, 21, 21);
+    position: relative;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+}
+.container-marketing h1:hover{
+    z-index: 10; 
+    transform: scale(1.1); 
+    cursor: pointer;
 }
 p{
     text-align: center;
