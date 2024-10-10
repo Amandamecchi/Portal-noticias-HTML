@@ -1,19 +1,15 @@
-body{
-    background-image: url('../images/fundoArtes.jpg');
-    background-position: center;
-    background-size: cover;
-}
+
 
 .title-conteudo{
     font-size: larger;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: end;
-    color: #fff;
+    color: #000000;
     display: flex;
 }
 .conteudo-img{
-    height: 25rem;
+    height: ;
     border-radius: 10px;
     width: 30rem;
     justify-content: center;
@@ -21,6 +17,7 @@ body{
     align-items: center;
     margin-left: 36%;
     margin-right: 20%;
+    margin-top: 20px;
 }
 
 .container_header{
