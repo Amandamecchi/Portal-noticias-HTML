@@ -89,6 +89,10 @@ body {
     margin-top: 2%;
 }
 
+.member:hover {
+    transform: scale(1.05);
+}
+
 .member h3 {
     font-size: 25px;
     margin-bottom: 5px;
