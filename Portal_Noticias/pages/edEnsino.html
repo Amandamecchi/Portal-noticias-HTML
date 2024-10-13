@@ -1,64 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Portal_Noticias/global.styles.css" />
-    <link rel="stylesheet" href="/Portal_Noticias/css/edEnsino.styles.css" crossorigin="anonymous">
-    <title>Carreiras - Ensino</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/testeheder.css">
+    <link rel="stylesheet" href="/Portal_Noticias/css/edEnsino.styles.css">
+    <link rel="stylesheet" href="./Portal_Noticias/css/index.styles.css">
+    <title>Home</title>
 </head>
 
 <body>
-    <header class="site-header">
-        <div class="logo-header">
-            <img id="sesi-logo" src="/Portal_Noticias/images/sessi.jpg" alt="logo-header SESI" />
-            <img id="senai-logo" src="/Portal_Noticias/images/senaai.jpg" alt="logo-header SENAI" />
-
-        </div>
-
-        <div class="vertical-line"></div>
-
-        <nav class="header-nav">
-            <ul class="links">
-
-                <li><a href="/Portal_Noticias/index.html" class="nav-link">Home</a></li>
-                <li><a href="/Portal_Noticias/pages/sobre.html" class="nav-link">Sobre-Nós</a></li>
-
-            </ul>
-            <div id="icones-header">
-                <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
+    <header>
+        <div class="container-header">
+            <div class="container-headerimg">
+                <img src="/Portal_Noticias/images/logo/sessi.jpg" alt="Logo">
+                <img src="/Portal_Noticias/images/logo/senaai.jpg" alt="Logo">
             </div>
-        </nav>
-
+            <div class="divisor"></div>
+            <nav class="header-nav">
+                <ul class="links">
+                    <li><strong><a href="./index.html" class="nav-link">Home</a></strong></li>
+                    <li><strong><a href="./Portal_Noticias/pages/sobre.html" class="nav-link">Sobre Nós</a></strong>
+                    </li>
+                    <li><strong><a href="./Portal_Noticias/pages/" class="nav-link">Cadastre-se</a></strong></li>
+                </ul>
+            </nav>
+            <div class="icon_menu" id="menuIcon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
     </header>
+    <nav class="menu-dropdown" id="menuDropdown">
+        <ul>
+            <li><a href="./Portal_Noticias/pages/conteudos.html">Conteúdos</a></li>
+            <li><a href="./Portal_Noticias/pages/dicas.html">Dicas</a></li>
+            <li><a href="./Portal_Noticias/pages/noticias.html">Notícias</a></li>
+            <li><a href="./Portal_Noticias/pages/carreiras.html">Carreiras</a></li>
+        </ul>
+    </nav>
 
-    <section class="header-banner">
-        <div class="overlay"></div>
-    </section>
-
-    <section class="topics-header">
-        <div class="aba-item">
-            <a href="" class="aba-text">SOBRE</a>
-        </div>
-        <div class="aba-item">
-            <a href="/Portal_Noticias/pages/carreiras.html" class="aba-text">CARREIRAS</a>
-        </div>
-        <div class="aba-item">
-            <a href="" class="aba-text-dicas">DICAS</a>
-        </div>
-        <div class="aba-item">
-            <a href="" class="aba-text">SIMULADOS</a>
-        </div>
-        <div class="aba-item">
-            <a href="" class="aba-text">NOTÍCIAS</a>
-        </div>
-        <div class="aba-item">
-            <a href="" class="aba-text">VÍDEO-AULAS</a>
-        </div>
-    </section>
 
     <hr />
 
@@ -203,6 +186,20 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        const menuIcon = document.getElementById('menuIcon');
+        const menuDropdown = document.getElementById('menuDropdown');
+        menuIcon.addEventListener('click', () => {
+          menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
+        });
+        document.addEventListener('click', (event) => {
+          if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
+            menuDropdown.style.display = 'none';
+          }
+        });
+      </script>
+
 </body>
 
 </html>
