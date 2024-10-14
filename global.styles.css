@@ -141,7 +141,9 @@ nav ul li a {
    width: 25px;
    gap: 5rem;
    justify-content: center;
+
    margin-left: 0.5rem;
+
 }
 
 .icones img {
@@ -150,6 +152,7 @@ nav ul li a {
    width: 30px;
 }
 
+
 .divisor-footer {
    background-color: rgb(255, 255, 255);
    height: 6rem;
@@ -157,6 +160,7 @@ nav ul li a {
    justify-content: center;
    margin-right: 0.6rem;
 }
+
 
 footer {
   display: flex;
@@ -171,4 +175,13 @@ footer {
   flex-wrap: wrap;
   position: relative;
   margin-top: auto;
+
+}
+
+.divisor-footer {
+   background-color: rgb(255, 255, 255);
+   height: 6rem;
+   width: 0.2rem;
+   justify-content: center;
+
 }
