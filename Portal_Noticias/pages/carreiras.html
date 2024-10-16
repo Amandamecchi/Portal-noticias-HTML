@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../testeheder.css" crossorigin="anonymous">
     </script>
-    <link rel="stylesheet" href="../css/carreiras.styles.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Portal_Noticias/css/carreiras.styles.css" crossorigin="anonymous">
     </script>
     <link rel="shortcut icon" href="../images/Favicon.png" type="image/x-icon">
 
@@ -63,14 +63,14 @@
     <div class="button-container">
         <a href="/Portal_Noticias/pages/art.html" class="imagem-button">
             <p>Artes</p> 
-           <img src="/Portal_Noticias/images/artes.jpg" alt="foto 1">
+           <img src="/Portal_Noticias/images/artesbanner.jpg" alt="foto 1">
         </a> 
     </div>
 
    <div class="button-container">
     <a href="/Portal_Noticias/pages/ef.html" class="imagem-button">
         <p>Educação Física</p>
- <img src="./../images/home.jpg" alt="foto 2">
+ <img src="/Portal_Noticias/images/home-ef.jpg" alt="foto 2">
     </a> 
 
    </div>
@@ -84,24 +84,23 @@
 <div class="barra-icones">
     <div class="icones">
         <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"
-        ><img src="../images/icones/facebook-f.png" alt="facebook"
+        ><img src="/Portal_Noticias/images/icones/facebook-f.png" alt="facebook"
         /></a>
         <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
-        ><img src="../images/icones/instagram-new.png" alt="instagram"
+        ><img src="/Portal_Noticias/images/icones/instagram-new.png" alt="instagram"
         /></a>
         <a href="https://api.whatsapp.com/send?phone=551133220050"
-        ><img src="../images/icones/whatsapp.png" alt="whatsapp"
+        ><img src="/Portal_Noticias/images/icones/whatsapp.png" alt="whatsapp"
         /></a>
         <a
         href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
-        ><img src="../images/icones/youtube-play.png"
+        ><img src="/Portal_Noticias/images/icones/youtube-play.png"
         alt="youtube"
         /></a>
         <a href="https://www.linkedin.com/school/senai-de-valinhos/"
-        ><img src="../images/icones/linkedin.png"
+        ><img src="/Portal_Noticias/images/icones/linkedin.png"
         alt="linkedin"></a>
     </div>
-</div>
 </div>
 <footer class="enderecos">
     <div>
@@ -120,17 +119,17 @@
         </p>
     </div>  
 </footer>
-    <script>
-        const menuIcon = document.getElementById('menuIcon');
-        const menuDropdown = document.getElementById('menuDropdown');
-        menuIcon.addEventListener('click', () => {
-          menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
-        });
-        document.addEventListener('click', (event) => {
-          if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
-            menuDropdown.style.display = 'none';
-          }
-        });
-    </script>
+<script>
+    const menuIcon = document.getElementById('menuIcon');
+    const menuDropdown = document.getElementById('menuDropdown');
+    menuIcon.addEventListener('click', () => {
+    menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
+    });
+    document.addEventListener('click', (event) => {
+    if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
+        menuDropdown.style.display = 'none';
+    }
+    });
+</script>
 </body>
 </html>
