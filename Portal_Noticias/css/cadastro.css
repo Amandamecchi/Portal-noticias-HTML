@@ -103,3 +103,22 @@ button {
 button:hover {
     background-color: #9a1915;
 }
+
+.footer {
+    background-color: #9a1915;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .icones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .enderecos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
