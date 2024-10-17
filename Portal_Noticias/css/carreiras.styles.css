@@ -1,18 +1,21 @@
-body { 
+body {
     font-family: Arial, sans-serif;
     padding: 0;
     margin: 0;
 }
+
 
 .logo-header img {
     max-height: 90px;
     margin-right: 0px;
 }
 
+
 .vertical-line {
     border-left: 1px solid rgb(255, 255, 255);
     height: 90px;
 }
+
 
 .header-nav ul {
     list-style: none;
@@ -21,9 +24,11 @@ body {
     padding: 0;
 }
 
+
 .header-nav ul li {
     margin-left: 20px;
 }
+
 
 .header-nav a {
     color: white;
@@ -31,9 +36,11 @@ body {
     font-weight: bold;
 }
 
+
 #icones-header i {
     color: white;
 }
+
 
 .header-banner {
     background-image: url('/Portal_Noticias/images/edFisica-artes.jpg');
@@ -41,6 +48,7 @@ body {
     height: 400px;
     position: relative;
 }
+
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.5);
@@ -51,6 +59,7 @@ body {
     left: 0;
 }
 
+
 .topics-header {
     display: flex;
     justify-content: center;
@@ -58,9 +67,11 @@ body {
     padding: 10px 0;
 }
 
+
 .aba-item {
     margin: 0 15px;
 }
+
 
 .aba-text {
     text-decoration: none;
@@ -69,10 +80,13 @@ body {
     font-weight: bold;
 }
 
+
 .aba-text-dicas {
     padding: 5px;
     border-radius: 5px;
 }
+
+
 
 
 .container {
@@ -82,15 +96,18 @@ body {
     gap: 20px;
 }
 
+
 .button-container {
     text-align: center;
     margin: 3%;
     transition: transform 0.3s;
 }
 
+
 .button-container:hover {
     transform: scale(1.05);
 }
+
 
 .imagem-button {
     border: none;
@@ -106,9 +123,11 @@ body {
     width: 100%;
 }
 
+
 .imagem-button:hover {
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
+
 
 .imagem-button img {
     width: 100%;
@@ -119,31 +138,34 @@ body {
     margin-top: 0%;
 }
 
+
 .button-container p {
     margin-top: 1%;
     font-weight: bold;
     color: #050505;
 }
 
+
 p {
     padding-bottom: 1%;
     padding-top: 1%;
-    font-size: 30px; 
-    text-align: center; 
-    margin-left: 5%; 
-    margin-right: 5%; 
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
     text-decoration: none;
 }
+
 
 h3 {
     padding-bottom: 1%;
     padding-top: 3%;
-    font-size: 30px; 
-    text-align: center; 
+    font-size: 30px;
+    text-align: center;
     font-weight: lighter;
     text-align: justify;
-    margin-left: 5%; 
-    margin-right: 5%; 
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 0%;
 }
 .textos h1{
@@ -156,10 +178,13 @@ h3 {
     transition: transform 0.3s ease, z-index 0.3s ease;
 }
 .textos h1:hover{
-    z-index: 10; 
-    transform: scale(1.1); 
+    z-index: 10;
+    transform: scale(1.1);
     cursor: pointer;
 }
+
+
+
 
 
 
@@ -169,9 +194,11 @@ h3 {
         align-items: center;
     }
 
+
     .header-banner {
         height: 250px;
     }
+
 
     p, h3 {
         font-size: 20px;
@@ -179,9 +206,11 @@ h3 {
         margin-right: 2%;
     }
 
+
     .button-container {
         margin: 2%;
     }
+
 
     .imagem-button {
         width: 100%;
@@ -189,37 +218,41 @@ h3 {
     }
 }
 
+
 @media (min-width: 601px) and (max-width: 1024px) {
     .header-nav ul {
         justify-content: space-around;
     }
 
+
     .header-banner {
         height: 300px;
     }
 
+
     .button-container {
         margin: 2%;
     }
+
 
     p, h3 {
         font-size: 25px;
     }
 }
 
+
 @media (min-width: 1025px) {
     .header-nav ul {
         justify-content: space-between;
     }
 
+
     .header-banner {
         height: 400px;
     }
+
 
     p, h3 {
         font-size: 30px;
     }
 }
-
-
-
