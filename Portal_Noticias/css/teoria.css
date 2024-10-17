@@ -177,3 +177,16 @@
     height: 25rem;
     margin-top: 5px;
 }
+
+.conteudo{
+   padding: 10px;
+   margin-top: 5px;
+}
+.title-text{
+   font-size: larger;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.escrita{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: medium;
+}
