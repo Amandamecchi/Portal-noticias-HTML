@@ -1,8 +1,10 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+  }
 
-
-
-<<<<<<< HEAD
-=======
 p {
     padding-bottom: 1%;
     padding-top: 1%;
@@ -35,6 +37,9 @@ p {
 
 .enderecos div {
     max-width: 300px;
+}
+h2{
+    
 }
 
 .enderecos h3 {
@@ -163,4 +168,14 @@ ul {
     font-size: 30px; 
     margin-top: 3%;
 }
->>>>>>> 2d5f91a2c1daacc1c008658b6c463599787d630c
+.footer .enderecos {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .icones {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
