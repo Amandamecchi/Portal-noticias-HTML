@@ -1,0 +1,124 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+.site-header {
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    background-color: #e30613;
+    padding: 1rem 0;
+}
+
+.logo-header {
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e30613;
+}
+
+.header-nav {
+    list-style: none;
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 60px;
+    margin-right: 50px;
+}
+
+.links a {
+    color: #ffffff;
+    font-size: 1.3rem;
+    border-bottom: 3px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.vertical-line {
+    height: 150px;
+    width: 3px;
+    background-color: #ffff;
+    margin: 0 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 50px auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #9a1915;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #9a1915;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9a1915;
+}
+
+.footer {
+    background-color: #9a1915;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .icones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .enderecos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}

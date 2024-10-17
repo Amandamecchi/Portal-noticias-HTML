@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2, h3, h4 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.site-header {
+    background-color: #e60000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.art-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.art-content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.art-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.art-description {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.art-description-second {
+    margin-top: 20px;
+    overflow: hidden; 
+}
+
+.art-image-small {
+    width: 40%; 
+    float: left; 
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.art-description-second p {
+    text-align: justify;
+    margin: 0;
+}
+
+.footer {
+    background-color: #9a1915;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 0;
+    clear: both; 
+}
+
+.footer .icones {
+    background-color: #e30613;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.footer .icones img {
+    display: inline-block;
+    margin-left: 25px;
+    width: 30px;
+    height: 30px;
+}
+
+.footer .enderecos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer .enderecos div {
+    max-width: 400px;
+}
+
+.footer .enderecos p {
+    line-height: 1.5;
+}
