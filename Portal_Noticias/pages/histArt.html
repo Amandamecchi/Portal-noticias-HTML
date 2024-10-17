@@ -18,8 +18,8 @@
             <nav class="header-nav">
                 <ul class="links">
                     <li><strong><a href="/index.html" class="nav-link">Home</a></strong></li>
-                    <li><strong><a href=".././pages/sobre-nos.html" class="nav-link">Sobre Nós</a></strong></li> 
-                    <li><strong><a href=".././pages/cadastro.html" class="nav-link">Cadastre-se</a></strong></li>
+                    <li><strong><a href="../pages/sobre-nos.html" class="nav-link">Sobre Nós</a></strong></li> 
+                    <li><strong><a href="../pages/cadastro.html" class="nav-link">Cadastre-se</a></strong></li>
                 </ul>
             </nav>
             <div class="icon_menu" id="menuIcon">
@@ -91,13 +91,13 @@
         const menuIcon = document.getElementById('menuIcon');
         const menuDropdown = document.getElementById('menuDropdown');
         menuIcon.addEventListener('click', () => {
-          menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
+        menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
         });
         document.addEventListener('click', (event) => {
-          if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
+        if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
             menuDropdown.style.display = 'none';
-          }
+        }
         });
-      </script>
+    </script>
 </body>
 </html>
