@@ -22,4 +22,6 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 5rem;
     cursor: pointer;
+    border-radius: 5%;
+    box-shadow: 10px 15px 5px rgb(170, 170, 170);;
 }
