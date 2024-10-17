@@ -10,7 +10,7 @@ body {
    display: flex;
    flex-direction: column;
 }
- 
+
 .container-header{
    background-color: #e20614;
    height: 6rem;
@@ -29,13 +29,13 @@ body {
    align-items: center;
    width: 30%;
 }
- 
+
 .container-headerimg img{
    max-height: 100%;
    max-width: 100%;
    margin-right: 0.5rem;
 }
- 
+
 .divisor{
    background-color: rgb(255, 255, 255);
    height: 5rem;
@@ -52,8 +52,8 @@ body {
    height: 24px;
    cursor: pointer;
    margin-right: 1rem;
- }
- 
+}
+
 .line1, .line2, .line3 {
    background-color: white;
    height: 4px;
@@ -95,7 +95,7 @@ body {
    border-radius: 3px;
    margin-right: 4px;
 }
- 
+
 .nav{
    width: 62%;
    display: flex;
@@ -105,7 +105,7 @@ body {
    align-items: center;
    gap: 5rem;
 }
- 
+
 nav ul {
    list-style: none;
    display: flex;
@@ -131,7 +131,6 @@ nav ul li a {
    justify-content: center;
    width: 100%;
    margin-top: auto;
-  
 }
 
 .icones {
@@ -141,9 +140,7 @@ nav ul li a {
    width: 25px;
    gap: 5rem;
    justify-content: center;
-
    margin-left: 0.5rem;
-
 }
 
 .icones img {
@@ -151,7 +148,6 @@ nav ul li a {
    height: 30px;
    width: 30px;
 }
-
 
 .divisor-footer {
    background-color: rgb(255, 255, 255);
@@ -161,21 +157,19 @@ nav ul li a {
    margin-right: 0.6rem;
 }
 
-
 footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  gap: 1rem;
-  width: 100%;
-  height: 100%;
-  background-color: #9a1915;
-  color: white;
-  flex-wrap: wrap;
-  position: relative;
-  margin-top: auto;
-
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   gap: 1rem;
+   width: 100%;
+   height: 100%;
+   background-color: #9a1915;
+   color: white;
+   flex-wrap: wrap;
+   position: relative;
+   margin-top: auto;
 }
 
 .divisor-footer {
@@ -183,5 +177,4 @@ footer {
    height: 6rem;
    width: 0.2rem;
    justify-content: center;
-
 }
