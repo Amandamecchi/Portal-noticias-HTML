@@ -3,7 +3,7 @@
     justify-content: space-around;
     align-items: center;
     height: 600px;
-  }
+}
 
 p {
     padding-bottom: 1%;
@@ -37,9 +37,6 @@ p {
 
 .enderecos div {
     max-width: 300px;
-}
-h2{
-    
 }
 
 .enderecos h3 {
