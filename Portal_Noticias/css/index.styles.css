@@ -1,3 +1,4 @@
+
 .container {
   background-color: #ffffff;
   padding: 40px;
@@ -15,7 +16,6 @@
     border: 1px solid #000000;
     width: 90%;
     align-items: center;
-    margin-top: 1rem;
   }
 
   .conteudo img {
