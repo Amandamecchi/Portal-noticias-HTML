@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./testeheder.css">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="./../css/index.styles.css">
     <link rel="stylesheet" href="./../css/ef.styles.css"> <!--os botões do negócio está funcionando porém sem o css (????)-->
     <title>Home</title>
+
 </head>
 
 <body>
@@ -23,9 +25,11 @@
             <div class="divisor"></div>
             <nav class="header-nav">
                 <ul class="links">
+
                     <li><strong><a href="./index.html" class="nav-link">Home</a></strong></li>
                     <li><strong><a href="./pages/sobre.html" class="nav-link">Sobre Nós</a></strong></li>
                     <li><strong><a href="./pages/sobre.html" class="nav-link">Cadastre-se</a></strong></li>
+
                 </ul>
             </nav>
             <div class="icon_menu" id="menuIcon">
@@ -85,36 +89,83 @@
                         alt="linkedin"></a>
             </div>
         </div>
-        </div>
-        <footer class="enderecos">
-            <div>
-                <h2>EDIFÍCIO REDE SENAI Valinhos</h2>
-                <p>
-                    R. Artur Fernandes Querido, 55 - Vila Santo<br />Antonio, Valinhos -
-                    SP, 13270-530
-                </p>
-            </div>
-            <div class="divisor-footer"></div>
-            <div>
-                <h2>EDIFÍCIO REDE SESI Valinhos</h2>
-                <p>
-                    Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP,
-                    13273-450
-                </p>
-            </div>
-        </footer>
-        <script>
-            const menuIcon = document.getElementById('menuIcon');
-            const menuDropdown = document.getElementById('menuDropdown');
-            menuIcon.addEventListener('click', () => {
-                menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
-            });
-            document.addEventListener('click', (event) => {
-                if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
-                    menuDropdown.style.display = 'none';
-                }
-            });
-        </script>
+
+    </div>
+
+
+<div class="container">
+    <div class="button-container">
+        <a href="/Portal_Noticias/pages/art.html" class="imagem-button">
+            <p>Artes</p> 
+           <img src="/Portal_Noticias/images/artesbanner.jpg" alt="foto 1">
+        </a> 
+    </div>
+
+   <div class="button-container">
+    <a href="/Portal_Noticias/pages/ef.html" class="imagem-button">
+        <p>Educação Física</p>
+ <img src="/Portal_Noticias/images/home-ef.jpg" alt="foto 2">
+    </a> 
+
+   </div>
+</div>
+   
+ 
+     
+   
+ 
+
+<div class="barra-icones">
+    <div class="icones">
+        <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"
+        ><img src="/Portal_Noticias/images/icones/facebook-f.png" alt="facebook"
+        /></a>
+        <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
+        ><img src="/Portal_Noticias/images/icones/instagram-new.png" alt="instagram"
+        /></a>
+        <a href="https://api.whatsapp.com/send?phone=551133220050"
+        ><img src="/Portal_Noticias/images/icones/whatsapp.png" alt="whatsapp"
+        /></a>
+        <a
+        href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
+        ><img src="/Portal_Noticias/images/icones/youtube-play.png"
+        alt="youtube"
+        /></a>
+        <a href="https://www.linkedin.com/school/senai-de-valinhos/"
+        ><img src="/Portal_Noticias/images/icones/linkedin.png"
+        alt="linkedin"></a>
+    </div>
+</div>
+<footer class="enderecos">
+    <div>
+        <h2>EDIFÍCIO REDE SENAI Valinhos</h2>
+        <p>
+            R. Artur Fernandes Querido, 55 - Vila Santo<br />Antonio, Valinhos -
+                SP, 13270-530
+        </p>
+    </div>
+    <div class="divisor-footer"></div>
+    <div>
+        <h2>EDIFÍCIO REDE SESI Valinhos</h2>
+        <p>
+            Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP,
+                13273-450
+        </p>
+    </div>  
+</footer>
+<script>
+    const menuIcon = document.getElementById('menuIcon');
+    const menuDropdown = document.getElementById('menuDropdown');
+    menuIcon.addEventListener('click', () => {
+    menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
+    });
+    document.addEventListener('click', (event) => {
+    if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
+        menuDropdown.style.display = 'none';
+    }
+    });
+</script>
+
 </body>
 
 </html>

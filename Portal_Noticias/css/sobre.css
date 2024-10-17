@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.conteudos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.img-art, .img-ef {
+    width: 40rem;
+    height: 30rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
