@@ -171,3 +171,9 @@
   .button:hover {
     color: rgb(141, 9, 9); 
   }
+
+.banner{
+    width: 100%;
+    height: 25rem;
+    margin-top: 5px;
+}
