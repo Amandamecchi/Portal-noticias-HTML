@@ -183,9 +183,11 @@
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
+    color: #fff;
 }
 .container{
-    background-color: #ddd;
+   background-image: url(./../images/teoria.webp);
+   background-position: center;
     width: 300px;
     height: 200px;
     border-radius: 10px;
@@ -200,3 +202,22 @@ h1{
     text-align: center;
     margin-top: 10px;
 }
+
+.sub-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: #fff;
+}
+
+.container2{
+    background-image: url(./../images/fisio.png);
+    background-position: center;
+     width: 300px;
+     height: 200px;
+     border-radius: 10px;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     margin-left: 38%;
+     margin-block-end: 30px;
+ }
