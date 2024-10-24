@@ -195,19 +195,14 @@
     gap: 3rem;
  }
 
- @media (max-width: 600px) {
+ @media (max-width: 600px){
+
+ }
     .header-nav ul {
         flex-direction: column;
         align-items: center;
     }
-
-
-    .header-banner {
-        height: 250px;
-    }
-
-
-    p, h3 {
+ p, h3 {
         font-size: 20px;
         margin-left: 2%;
         margin-right: 2%;
@@ -223,7 +218,6 @@
         width: 100%;
         height: auto;
     }
-}
 
 
 @media (min-width: 601px) and (max-width: 1024px) {
