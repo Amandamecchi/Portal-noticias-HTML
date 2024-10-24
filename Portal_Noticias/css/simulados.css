@@ -189,8 +189,7 @@ footer {
 }
 
 .container {
-   background-image: url(./../images/teoria.webp);
-   background-position: center;
+   background-color: gray;
    width: 300px;
    height: 200px;
    border-radius: 10px;
@@ -214,7 +213,7 @@ h1 {
 }
 
 .container2 {
-   background-image: url(./../images/diversos.jpg);
+   background-color: gray;
    width: 300px;
    height: 200px;
    border-radius: 10px;
