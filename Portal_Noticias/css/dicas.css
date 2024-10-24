@@ -193,6 +193,7 @@
     align-items: center;
     display: flex;
     gap: 3rem;
+    height: 75vh;
  }
 
  @media (max-width: 600px){
