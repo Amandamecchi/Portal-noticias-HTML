@@ -8,12 +8,10 @@
   } 
 
   .conteudo {
-    background-color: #f0f0f0;
     padding: 60px;
     margin: 0 auto 20px auto;
     border-radius: 8px;
     text-align: center;
-    border: 1px solid #000000;
     width: 90%;
     align-items: center;
   }

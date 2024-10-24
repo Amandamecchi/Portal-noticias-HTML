@@ -33,10 +33,11 @@
         </header>
         <nav class="menu-dropdown" id="menuDropdown">
             <ul>
-                <li><a href="./Portal_Noticias/pages/conteudos.html">Conteúdos</a></li>
+                <li><a href="./Portal_Noticias/pages/sobre-conteudos.html">Conteúdos</a></li>
                 <li><a href="./Portal_Noticias/pages/dicas.html">Dicas</a></li>
                 <li><a href="./Portal_Noticias/pages/noticias.html">Notícias</a></li>
                 <li><a href="./Portal_Noticias/pages/carreiras.html">Carreiras</a></li>
+                <li><a href="./Portal_Noticias/pages/simulados.html">Simulados</a></li>
             </ul>
         </nav>
         <div  class="container">
@@ -120,17 +121,6 @@
                 </p>
             </div>  
         </footer>
-        <script>
-            const menuIcon = document.getElementById('menuIcon');
-            const menuDropdown = document.getElementById('menuDropdown');
-            menuIcon.addEventListener('click', () => {
-              menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
-            });
-            document.addEventListener('click', (event) => {
-              if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
-                menuDropdown.style.display = 'none';
-              }
-            });
-          </script>
+        <script src="./menu.js"></script>
     </body>
 </html>
