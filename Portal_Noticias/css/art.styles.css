@@ -20,13 +20,6 @@ max-width: 700px;
 max-height: 700px; 
 }
 
-.header-banner {
-background-image: url('/Portal_Noticias/images/artesbanner.jpg');
-background-size: cover;
-height: 400px;
-position: relative;
-}
-
 .conteudo-carreira {
 width: 80%;
 margin: 20px auto;

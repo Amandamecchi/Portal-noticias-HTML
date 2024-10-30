@@ -33,15 +33,15 @@
         </header>
         <nav class="menu-dropdown" id="menuDropdown">
             <ul>
-                <li><a href="./Portal_Noticias/pages/conteudos.html">Conteúdos</a></li>
-                <li><a href="./Portal_Noticias/pages/dicas.html">Dicas</a></li>
-                <li><a href="./Portal_Noticias/pages/noticias.html">Notícias</a></li>
-                <li><a href="./Portal_Noticias/pages/carreiras.html">Carreiras</a></li>
+                <li><a href="Portal_Noticias/pages/sobre-conteudos.html">Conteúdos</a></li>
+                <li><a href="Portal_Noticias/pages/dicas.html">Dicas</a></li>
+                <li><a href="Portal_Noticias/pages/noticias.html">Notícias</a></li>
+                <li><a href="Portal_Noticias/pages/carreiras.html">Carreiras</a></li>
             </ul>
         </nav>
         <div  class="container">
             <div class="conteudo">
-                <h1>A IMPORTÂNCIA DAS ARTES E DA EDUCAÇÃO FÍSICA NA EDUCAÇÃO BÁSICA</h1><br>
+                <h1>A IMPORTÂNCIA DAS ARTES E DA EDUCAÇÃO FÍSICA NA EDUCAÇÃO BÁSICA</h1>
                 <p class="phome-intro">
                     As disciplinas de artes e educação física são, de certa forma,
                     fundamentais para a formação de um indivíduo, seja para ajudar a
@@ -50,35 +50,35 @@
                 </p>
                 <img src="./Portal_Noticias/images/home-ef.jpg" alt="Alunos jogando basquete em uma quadra" />
                 <p class="phome-intro">
-                    A Educação Física foca na promoção da saúde e no desenvolvimento físico por meio da prática de exercícios, esportes e atividades corporais. Além de promover a aptidão física, ela também incentiva habilidades sociais e emocionais.<br class="introtxt-ef">
+                    A Educação Física foca na promoção da saúde e no desenvolvimento físico por meio da prática de exercícios, esportes e atividades corporais. Além de promover a aptidão física, ela também incentiva habilidades sociais e emocionais.</p>
                     
-                    Benefícios:<br>
+                    <p>Benefícios:</p>
 
-                    Melhora da saúde cardiovascular e fortalecimento muscular;<br>
+                    <p>Melhora da saúde cardiovascular e fortalecimento muscular;</p>
 
-                    Controle de peso e redução do risco de doenças crônicas;<br>
+                    <p>Controle de peso e redução do risco de doenças crônicas;</p>
 
-                    Desenvolvimento de habilidades motoras e coordenação corporal;<br>
+                    <p>Desenvolvimento de habilidades motoras e coordenação corporal;</p>
 
-                    Fortalecimento do trabalho em equipe e habilidades sociais;<br>
+                    <p>Fortalecimento do trabalho em equipe e habilidades sociais;</p>
 
-                    Promoção da disciplina, resiliência e redução do estresse.<br>
+                    <p>Promoção da disciplina, resiliência e redução do estresse.</p>
                 </p>
                 <img src="./Portal_Noticias/images/home-artes.jpg" alt="Alunos desenhano com professora">
                 <p class="phome-intro">
                     A educação em Artes estimula a criatividade, a expressão emocional e a sensibilidade estética. Ela abrange diversas formas de expressão, como pintura, escultura, música, teatro e dança, permitindo aos alunos desenvolverem a capacidade de se comunicar por meio de símbolos e emoções.<br class="introtxt-art">
 
-                    Benefícios:<br>
+                    <p>Benefícios:</p>
 
-                    Desenvolvimento da criatividade e imaginação;<br>
+                    <p>Desenvolvimento da criatividade e imaginação;</p>
 
-                    Melhoria da coordenação motora fina e percepção visual;<br>
+                    <p>Melhoria da coordenação motora fina e percepção visual</p>
 
-                    Promoção da autoconfiança e autoestima;<br>
+                    <p>Promoção da autoconfiança e autoestima;</p>
 
-                    Aumento da capacidade de resolução de problemas e pensamento crítico;<br>
+                    <p>Aumento da capacidade de resolução de problemas e pensamento crítico;</p>
 
-                    Estímulo à empatia e compreensão cultural, ao trabalhar com diferentes perspectivas artísticas.
+                    <p> Estímulo à empatia e compreensão cultural, ao trabalhar com diferentes perspectivas artísticas.</p>
                 </p>
             </div>
         </div>
@@ -120,17 +120,6 @@
                 </p>
             </div>  
         </footer>
-        <script>
-            const menuIcon = document.getElementById('menuIcon');
-            const menuDropdown = document.getElementById('menuDropdown');
-            menuIcon.addEventListener('click', () => {
-              menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
-            });
-            document.addEventListener('click', (event) => {
-              if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
-                menuDropdown.style.display = 'none';
-              }
-            });
-          </script>
+        <script src="./menu.js"></script>
     </body>
 </html>

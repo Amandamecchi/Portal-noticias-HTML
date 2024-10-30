@@ -4,53 +4,6 @@ body {
     margin: 0;
 }
 
-.logo-header img {
-    max-height: 10vw; 
-    margin-right: 0;
-}
-
-.vertical-line {
-    border-left: 1px solid rgb(255, 255, 255);
-    height: 10vw;
-}
-
-.header-nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.header-nav ul li {
-    margin-left: 2vw; 
-}
-
-.header-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#icones-header i {
-    color: white;
-}
-
-.header-banner {
-    background-image: url('./../');
-    background-size: cover;
-    height: 40vh; 
-    position: relative;
-}
-
-.overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 .marketing-esportivo {
     padding: 2rem;
     text-align: center;
@@ -63,7 +16,7 @@ body {
 
 .marketing-esportivo p {
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5px;
 }
 
 .marketing-imagem {
@@ -71,12 +24,13 @@ body {
     justify-content: center;
     gap: 2vw; 
     margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 
 .marketing-imagem img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 20px #070505;
     cursor: pointer;
     transition: 0.4s ease-in-out;
@@ -88,26 +42,43 @@ body {
     transform: scale(1.1);
     cursor: pointer;
 }
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 3%;
+    color: rgb(92, 21, 21);
+    position: relative;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+}
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: rgb(92, 21, 21);
+}
 
 p {
     text-align: center;
-    margin-bottom: 4rem;
-    margin-top: 3rem;
-    font-size: 1.5rem; 
+    margin: 3rem 5%;
+    font-size: 1.6rem; 
     text-align: justify;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
-
 
 ul {
     list-style-type: disc;
     padding-left: 2em;
     text-align: justify;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 1.5rem; 
-    margin-top: 3%;
+    margin: 1% 5%;
+    font-size: 1.6rem; 
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+li {
+    margin-bottom: 10px;
 }
 
 @media (max-width: 1200px) {
@@ -132,6 +103,25 @@ ul {
         height: 30vh;
     }
     p, ul {
-        font-size: 1.1rem;
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 480px) {
+    .logo-header img {
+        max-height: 20vw;
+    }
+    .header-banner {
+        height: 20vh;
+    }
+    .marketing-esportivo h2 {
+        font-size: 1.5rem;
+    }
+    .marketing-esportivo p, p, ul {
+        font-size: 1rem;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .vertical-line {
+        height: 4vh;
     }
 }

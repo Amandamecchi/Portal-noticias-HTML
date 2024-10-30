@@ -3,114 +3,33 @@ body {
     padding: 0;
 }
 
-
-.logo-header img {
-    max-height: 90px;
-    margin-right: 0px;
-}
-
-
-.vertical-line {
-    border-left: 1px solid rgb(255, 255, 255);
-    height: 90px;
-}
-
-
-.header-nav ul {
-    list-style: none;
-    display: flex;
-    margin: 5;
-    padding: 0;
-}
-
-
-.header-nav ul li {
-    margin-left: 20px;
-}
-
-
-.header-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
-#icones-header i {
-    color: white;
-}
-
-
-.header-banner {
-    background-image: url('./../images/eFisica.jpg');
-    background-size: cover;
-    height: 400px;
-    position: relative;
-}
-
-
-.overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-
-.topics-header {
-    display: flex;
-    justify-content: center;
-    background-color: #ffffff;
-    padding: 10px 0;
-}
-
-
-.aba-item {
-    margin: 0 15px;
-}
-
-
-.aba-text {
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-    font-weight: bold;
-}
-
-
-.aba-text-dicas {
-    padding: 5px;
-    border-radius: 5px;
-}
-
-
-
-
 .personal img{
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    display: block;
+    margin: 4% auto;
     border-radius: 10px;
     box-shadow: 0 0 20px #070505;
     cursor: pointer;
     transition: 0.4s ease-in-out;
+    max-width: 30%;
+    height: auto;
 }
-
 
 h1 {
     text-align: center;
-    font-size: 50px;
-    margin-bottom: 50px;
+    font-size: 3rem;
+    margin-bottom: 2rem;
     margin-top: 3%;
     color: rgb(92, 21, 21);
     position: relative;
     transition: transform 0.3s ease, z-index 0.3s ease;
 }
-
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: rgb(92, 21, 21);
+}
 
 .personal h1:hover{
     z-index: 10;
@@ -118,30 +37,82 @@ h1 {
     cursor: pointer;
 }
 
-
 ul {
     list-style-type: disc;
     padding-left: 2em;
     text-align: justify;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 30px;
+    margin: 0 5%;
+    font-size: 1.5rem;
     margin-top: 3%;
 }
+
+li {
+    margin-bottom: 10px;
+}
+
 p{
-    text-align: center;
-    margin-bottom: 70px;
-    margin-top: 30px;
-    font-size: 30px;
     text-align: justify;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 2% 5%;
 }
 .cref img{
-    margin-top: 2%;
-    margin-bottom: 50px;
+    width: 40%;
+    height: auto;
+    margin: 2% auto 50px;
+    display: block;
+    transition: 0.4s ease-in-out;
 }
 .cref img:hover{
     box-shadow: 0 0 20px #101720, 0 0 40px #2d2f31,
     0 0 60px #181e24;
+}
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    p, ul {
+        font-size: 1.25rem;
+    }
+    .cref img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    p, ul {
+        font-size: 1rem;
+    }
+    .cref img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    p, ul {
+        font-size: 1rem;
+    }
+    ul {
+        padding-left: 1.6em;
+    }
+    .cref img {
+        width: 100%;
+    }
 }
