@@ -228,13 +228,13 @@
  }
  
  
- .aquecimento {
+ .conteudo1 {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
  }
  
- .exercicio {
+ .materia {
     flex: 1 1 200px;
     padding: 10px;
     background-color: #f9f9f9;
@@ -243,18 +243,18 @@
     text-align: center;
  }
  
- .exercicio h3 {
+ .materia h3 {
     color: #e02d18;
     font-size: 1.2rem;
     margin-bottom: 10px;
  }
  
- .exercicio p {
+ .materia p {
     color: #333;
     margin-bottom: 10px;
  }
  
- .exercicio img {
+ .materia img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
