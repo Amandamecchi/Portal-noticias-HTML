@@ -9,15 +9,7 @@ body {
     text-align: center;
 }
 
-.marketing-esportivo h2 {
-    font-size: 2rem;
-    font-weight: bold;
-}
 
-.marketing-esportivo p {
-    font-size: 1rem;
-    margin-bottom: 5px;
-}
 
 .marketing-imagem {
     display: flex;
@@ -42,7 +34,7 @@ body {
     transform: scale(1.1);
     cursor: pointer;
 }
-h1 {
+.container-marketing h1 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -51,7 +43,7 @@ h1 {
     position: relative;
     transition: transform 0.3s ease, z-index 0.3s ease;
 }
-h2 {
+.container-marketing h2{
     text-align: center;
     font-size: 2.5rem;
     margin-top: 2%;

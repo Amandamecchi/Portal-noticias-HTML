@@ -37,7 +37,7 @@
     display: block;
     margin: 20px auto;
     width: 100%;
-    height: auto;
+    height: 10vh;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
@@ -104,7 +104,7 @@ p {
     margin: 2vh; 
     transition: transform 0.3s;
     width: 50vw; 
-    height: 30vw;
+    height: 12vw;
 }
 
 .button-container:hover {
@@ -137,7 +137,7 @@ p {
 }
 
 .button-container p {
-    margin-top: 2vh; 
+    margin-top: 1vh; 
     font-weight: bold;
     color: #050505;
     text-align: center;
