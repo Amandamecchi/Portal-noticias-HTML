@@ -9,6 +9,7 @@ body {
     margin: 0;
     padding: 0px;
     background-color: #ffffff;
+    text-align: justify;
 }
 
 h1 {
@@ -18,9 +19,9 @@ h1 {
     margin-top: 2%;
 }
 p {
-    text-align: center;
-    margin-bottom: 4rem;
-    margin-top: 0%;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    margin-top: 1%;
     font-size: 1.5rem; 
     text-align: justify;
     margin-left: 5%;
@@ -60,13 +61,10 @@ p {
 }
 
 .description {
-    text-align: center;
     margin-bottom: 4rem;
     margin-top: 0%;
     font-size: 1.5rem; 
     text-align: justify;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
 
