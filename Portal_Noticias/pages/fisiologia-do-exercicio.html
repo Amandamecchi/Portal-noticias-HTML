@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Importância do Aquecimento</title>
+    <link rel="stylesheet" href="../css/importancia-do-aquecimento.css">
+    <link rel="stylesheet" href="/global.styles.css">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="container-headerimg">
+                <img src="/Portal_Noticias/images/logo/sessi.jpg" alt="Logo">
+                <img src="/Portal_Noticias/images/logo/senaai.jpg" alt="Logo">
+            </div>
+            <div class="divisor"></div>
+            <nav class="header-nav">
+                <ul class="links">
+                    <li><strong><a href="/index.html" class="nav-link">Home</a></strong></li>
+                    <li><strong><a href="../pages/sobre-nos.html" class="nav-link">Sobre Nós</a></strong></li> 
+                    <li><strong><a href="../pages/cadastro.html" class="nav-link">Cadastre-se</a></strong></li>
+                </ul>
+            </nav>
+            <div class="icon_menu" id="menuIcon">
+                <div class="line1"></div>
+                <div class="line2"></div> 
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="conteudo">
+        <h1>Fisiologia do exercício</h1>
+        <p>A Fisiologia do Exercício, área de conhecimento derivada da Fisiologia, é caracterizada pelo estudo dos efeitos agudos e crônicos do exercício físico sobre as estruturas e as funções dos sistemas do corpo humano.</p>
+        <p>Existem diversos sistemas metabólicos que são utilizados durante o exercício. Entretanto destacam-se três sistemas que são de extrema importância, são esses: o sistema fosfocreatina-creatina, sistema glicogênio-ácido lático e sistema aeróbio.</p>
+        <img src="../images/aqueciment.png" alt="image">
+
+        <h2>Como aquecer?</h2>
+        <div class="aquecimento">
+            <div class="exercicio">
+                <h3>Pescoço:</h3>
+                <p>texto aqui</p>
+                <img src="../images/pescoco.png" alt="Exercício de pescoço">
+            </div>
+            <div class="exercicio">
+                <h3>Pernas:</h3>
+                <p>texto aqui</p>
+                <img src="../images/pernas.png" alt="Exercício de pernas">
+            </div>
+            <div class="exercicio">
+                <h3>Braços:</h3>
+                <p>texto aqui.</p>
+                <img src="../images/braco.png" alt="Exercício de braços">
+            </div>
+        </div>
+    </section>
+
+    <div class="barra-icones">
+        <div class="icones">
+            <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"
+            ><img src="/Portal_Noticias/images/icones/facebook-f.png" alt="facebook"
+            /></a>
+            <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
+            ><img src="/Portal_Noticias/images/icones/instagram-new.png" alt="instagram"
+            /></a>
+            <a href="https://api.whatsapp.com/send?phone=551133220050"
+            ><img src="/Portal_Noticias/images/icones/whatsapp.png" alt="whatsapp"
+            /></a>
+            <a
+            href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
+            ><img src="/Portal_Noticias/images/icones/youtube-play.png"
+            alt="youtube"
+            /></a>
+            <a href="https://www.linkedin.com/school/senai-de-valinhos/"
+            ><img src="/Portal_Noticias/images/icones/linkedin.png"
+            alt="linkedin"></a>
+        </div>
+    </div>
+    <footer class="enderecos">
+        <div>
+            <h2>EDIFÍCIO REDE SENAI Valinhos</h2>
+            <p>
+                R. Artur Fernandes Querido, 55 - Vila Santo<br />Antonio, Valinhos -
+                    SP, 13270-530
+            </p>
+        </div>
+        <div class="divisor-footer"></div>
+        <div>
+            <h2>EDIFÍCIO REDE SESI Valinhos</h2>
+            <p>
+                Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP,
+                    13273-450
+            </p>
+        </div>  
+    </footer>
+    <script>
+        const menuIcon = document.getElementById('menuIcon');
+        const menuDropdown = document.getElementById('menuDropdown');
+        menuIcon.addEventListener('click', () => {
+        menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
+        });
+        document.addEventListener('click', (event) => {
+        if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
+            menuDropdown.style.display = 'none';
+        }
+        });
+    </script>
+</body>
+</html>
