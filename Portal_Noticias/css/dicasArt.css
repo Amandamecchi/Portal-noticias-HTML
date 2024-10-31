@@ -235,3 +235,26 @@ nav ul li a {
 .button:hover {
    color: rgb(141, 9, 9); 
 }
+
+.text1 {
+   text-align: justify;
+   text-indent: 30px;
+   font-size: 3rem;
+   padding: 4rem;
+   line-height: 5rem;
+   margin-top: 10px;
+   
+}
+
+.title {
+   text-align: center;
+   padding: 5rem;
+   width: 40rem;
+   line-height: 2rem;
+}
+
+.title1{
+   justify-content: center;
+   width: 100%;
+   display: flex;
+}
