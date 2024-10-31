@@ -156,6 +156,8 @@ nav ul li a {
    grid-template-columns: repeat(3, 1fr);
    gap: 20px;
    padding: 20px;
+   height: 50rem;
+   margin-top: 10rem;
 }
 
 .art-item {
