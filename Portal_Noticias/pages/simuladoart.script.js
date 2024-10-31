@@ -50,10 +50,6 @@ document.getElementById('submit').addEventListener('click', function() {
 
 
 
-
-//00000//
-
-
 document.getElementById('submit').addEventListener('click', function() {
     const questions = document.querySelectorAll('.question');
     let totalCorrect = 0;
