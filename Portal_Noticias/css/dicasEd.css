@@ -76,19 +76,19 @@ body {
     color: white;
     margin-top: 50px;
     text-align: center;
-  }
+}
     
-  .footer .icones {
+.footer .icones {
     background-color: #e30613;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
     
-  .footer .icones img {
+.footer .icones img {
     display: inline-block;
     margin-left: 25px;
-  }
+}
 
 .address-container {
     display: flex;
@@ -151,3 +151,13 @@ body {
     color: #333;
     line-height: 1.6;
 }
+
+.hint {
+    margin-top: 3.95em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    line-height: 2.3rem;
+}
+
