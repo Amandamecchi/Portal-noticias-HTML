@@ -7,7 +7,6 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0px;
     background-color: #ffffff;
     text-align: justify;
 }
@@ -15,33 +14,31 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 30px;
-    color: #333;
+    color: #000000;
     margin-top: 2%;
 }
 p {
     text-align: justify;
-    margin-bottom: 1.5rem;
-    margin-top: 1%;
-    font-size: 1.5rem; 
-    text-align: justify;
-    margin-left: 5%;
-    margin-right: 5%; 
+    margin: 1% 5% 2% 5%;
+    font-size: 1.9rem; 
 }
 
 .container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 
 .member {
-    background-color: #fff;
-    padding: 0px;
+    background-color: #ffffff;
+    padding: 0;
     margin-bottom: 90px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 300px;
+    transition: transform 0.3s ease;
 }
 
 .member img {
@@ -58,13 +55,79 @@ p {
 .member h3 {
     margin-bottom: 5px;
     color: #000000;
+    padding-bottom: 5%;
+
 }
 
 .description {
     margin-bottom: 4rem;
-    margin-top: 0%;
+    margin-top: 0;
     font-size: 1.5rem; 
     text-align: justify;
 }
 
+.description p {
+    text-align: justify;
+    margin: 1% 5% 2% 5%;
+    font-size: 1.2rem; 
+}
+
+@media (max-width: 1200px) {
+    .member {
+        width: 45rem;
+    }
+}
+
+p, .description {
+    font-size: 1.3rem;
+    margin: 1% 4% 1.5% 4%;
+}
+
+@media (max-width: 992px) {
+    .member {
+        width: 46%;
+    }
+    p, .description{
+        font-size: 1rem;
+        margin: 1% 3% 1.5% 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    .member{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    h1 {
+        font-size: 2rem;
+        margin-top: 3%;
+    }
+    p, .description{
+        font-size: 1rem;
+        margin: 1% 3% 1.5% 3%;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    p, .description {
+        font-size: 1rem;
+        margin: 1% 2% 2% 2%;
+    }
+
+    @media (max-width: 400px) {
+        h1 {
+            font-size: 1.2rem;
+        }
+        p, .description {
+            font-size: 0.9rem;
+        }
+        .member {
+            width: 100%;
+        }
+    }
+}
 
