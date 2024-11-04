@@ -48,7 +48,7 @@
 
         <div class="container-carreira">
             <div class="conteudo-principal">
-                <h1>O que faz um profissional de educação física?</h1>
+                <h1>O Que Faz um Profissional de Educação Física?</h1>
                 <p>Através do ensino e prática de atividades corporais, o profissional de Educação Física possui atuação
                     direta com a saúde e a qualidade de vida das pessoas. O profissional formado em educação física está
                     apto ao trabalho educativo, tanto para os alunos do ensino fundamental e médio, quanto para lecionar
@@ -167,18 +167,7 @@
                     </p>
                 </div>
             </footer>
-            <script>
-                const menuIcon = document.getElementById('menuIcon');
-                const menuDropdown = document.getElementById('menuDropdown');
-                menuIcon.addEventListener('click', () => {
-                    menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
-                });
-                document.addEventListener('click', (event) => {
-                    if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
-                        menuDropdown.style.display = 'none';
-                    }
-                });
-            </script>
+            <script src="/menu.js"></script>
         </div>
 </body>
 </body>
