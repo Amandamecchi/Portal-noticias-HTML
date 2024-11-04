@@ -31,3 +31,23 @@ a {
     color: black;
     font-size: 20px;
 }
+
+.conteudo-ef img {
+    position: relative;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    }
+
+.conteudo-ef img:hover {
+    z-index: 10; 
+    transform: scale(1.1); 
+    }
+
+.conteudo-artes img {
+        position: relative;
+        transition: transform 0.3s ease, z-index 0.3s ease;
+        }
+    
+.conteudo-artes img:hover {
+        z-index: 10; 
+        transform: scale(1.1); 
+        }
