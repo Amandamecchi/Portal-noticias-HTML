@@ -81,16 +81,6 @@ z-index: 10;
 transform: scale(1.1); 
 }
 
-.conteudo h1 {
-position: relative;
-transition: transform 0.3s ease, z-index 0.3s ease;
-}
-
-.conteudo h1:hover {
-z-index: 10; 
-transform: scale(1.1); 
-}
-
 @media (max-width: 1024px) {
 .topics-header {
     display: flex;
