@@ -9,7 +9,7 @@ body {
     font-size: 3rem;
     margin-bottom: 2rem;
     margin-top: 3%;
-    color: rgb(92, 21, 21);
+    color: rgb(0, 0, 0);
     position: relative;
     transition: transform 0.3s ease, z-index 0.3s ease;
     cursor: pointer;
@@ -18,12 +18,29 @@ body {
     z-index: 10;
     transform: scale(1.1);
 }
+.ensino-content h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: rgb(0, 0, 0);
+    margin: 0 5%;
+}
 .conteudos h2{
     text-align: center;
     font-size: 3rem;
     margin-top: 2%;
     margin-bottom: 1%;
     color: rgb(92, 21, 21);
+    margin: 0 5%;
+}
+.ensino-img h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 5px;
+    margin-bottom: 5%;
+    color: rgb(0, 0, 0);
+    margin: 0 5%;
 }
 
 ul {
@@ -45,7 +62,7 @@ li {
 
 .ensino-img img {
     display: block;
-    margin: 0 auto;
+    margin: 3% auto;
     justify-content: center;
     align-items: center;
     max-width: 100%;
