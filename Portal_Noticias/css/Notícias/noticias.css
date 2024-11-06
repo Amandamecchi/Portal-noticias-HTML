@@ -1,0 +1,43 @@
+main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.noticia {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h1 {
+    font-size: 30px;
+}
+
+.titulo p {
+    font-size: 16px;
+}
+
+.imagem-noticia {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.imagem img {
+    width: 1000px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.conteudo p {
+    text-align: justify;
+    font-size: 24px;
+}
