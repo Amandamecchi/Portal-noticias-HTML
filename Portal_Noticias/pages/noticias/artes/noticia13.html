@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/global.styles.css">
+    <link rel="stylesheet" href="/Portal_Noticias/css/Notícias/noticias.css">
+    <title>Notícias | Artes </title>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="container-headerimg">
+                <img src="/Portal_Noticias/images/logo/sessi.jpg" alt="Logo">
+                <img src="/Portal_Noticias/images/logo/senaai.jpg" alt="Logo">
+            </div>
+            <div class="divisor"></div>
+            <nav class="header-nav">
+                <ul class="links">
+                    <li><strong><a href="/index.html" class="nav-link">Home</a></strong></li>
+                    <li><strong><a href="/Portal_Noticias/pages/sobre-nos.html" class="nav-link">Sobre Nós</a></strong></li> 
+                    <li><strong><a href="/Portal_Noticias/pages/cadastro.html" class="nav-link">Cadastre-se</a></strong></li>
+                </ul>
+            </nav>
+            <div class="icon_menu" id="menuIcon">
+                <div class="line1"></div>
+                <div class="line2"></div> 
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <nav class="menu-dropdown" id="menuDropdown">
+        <ul>
+            <li><a href="./sobre-conteudos.html">Conteúdos</a></li>
+            <li><a href="./dicas.html">Dicas</a></li>
+            <li><a href="./noticias.html">Notícias</a></li>
+            <li><a href="./carreiras.html">Carreiras</a></li>
+            <li><a href="./simulados.html">Simulados</a></li>
+            </ul>
+    </nav>
+
+    <main>
+        <div class="noticia">
+            <div class="titulo">
+                <h1>Homem destrói escultura do artista chinês Ai Weiwei em exposição na Itália</h1>
+                <p>Autor do crime que empurrou propositalmente a obra era conhecido no mundo da arte</p>
+            </div>
+
+            <div class="imagem-noticia">
+                <div class="imagem">
+                    <img src="/Portal_Noticias/images/noticia1.jpg" alt="">
+                </div>
+            </div>
+    
+            <div class="conteudo">
+                <p>Durante a abertura de uma exposição no Palazzo Fava, na cidade italiana de Bolonha, um homem destruiu uma escultura do artista e ativista chinês Ai Weiwei na última sexta-feira (20), informou um porta-voz da exposição.</p>
+                <p>Imagens de câmeras de segurança – publicadas na conta de Ai Weiwei no Instagram – mostraram o homem empurrando violentamente a escultura, quebrando-a e em seguida. Ele ainda segura um pedaço da peça sobre sua cabeça.</p>
+                <p>A obra em questão era o “Porcelain Cube”, um cubo de porcelana nas azul e branco, disse o porta-voz.</p>
+                <p>O curador da exposição, Arturo Galansino, disse que o autor do crime era bem conhecido no mundo da arte.</p>
+                <p>“Infelizmente, eu conheço o autor desse gesto de falta de consideração por uma série de episódios perturbadores e prejudiciais ao longo dos anos envolvendo várias exposições e instituições em Florença”, disse Galansino.</p>
+                <p>A polícia de Bolonha disse à mídia local que o homem tcheco de 57 anos foi preso depois de ter sido detido pela segurança do museu.</p>
+                <p>O porta-voz informou que a exposição de arte, intitulada “Quem sou eu?”, foi aberta no sábado normalmente e que a obra será substituída por uma impressão em tamanho real do cubo. A exposição deve ficar em cartaz até 4 de maio do ano que vem.</p>
+                <p>Ainda não ficou claro como o homem entrou no prédio durante o evento, que era apenas para convidados.</p>
+            </div>
+        </div>
+
+    </main>
+    <div class="barra-icones">
+        <div class="icones">
+            <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"
+            ><img src="/Portal_Noticias/images/icones/facebook-f.png" alt="facebook"
+            /></a>
+            <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
+            ><img src="/Portal_Noticias/images/icones/instagram-new.png" alt="instagram"
+            /></a>
+            <a href="https://api.whatsapp.com/send?phone=551133220050"
+            ><img src="/Portal_Noticias/images/icones/whatsapp.png" alt="whatsapp"
+            /></a>
+            <a
+            href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
+            ><img src="/Portal_Noticias/images/icones/youtube-play.png"
+            alt="youtube"
+            /></a>
+            <a href="https://www.linkedin.com/school/senai-de-valinhos/"
+            ><img src="/Portal_Noticias/images/icones/linkedin.png"
+            alt="linkedin"></a>
+        </div>
+    </div>
+    <footer class="enderecos">
+        <div>
+            <h2>EDIFÍCIO REDE SENAI Valinhos</h2>
+            <p>
+                R. Artur Fernandes Querido, 55 - Vila Santo<br />Antonio, Valinhos -
+                    SP, 13270-530
+            </p>
+        </div>
+        <div class="divisor-footer"></div>
+        <div>
+            <h2>EDIFÍCIO REDE SESI Valinhos</h2>
+            <p>
+                Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP,
+                    13273-450
+            </p>
+        </div>  
+    </footer>
+    <script>
+        const menuIcon = document.getElementById('menuIcon');
+        const menuDropdown = document.getElementById('menuDropdown');
+        menuIcon.addEventListener('click', () => {
+        menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
+        });
+        document.addEventListener('click', (event) => {
+        if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
+            menuDropdown.style.display = 'none';
+        }
+        });
+    </script>
+</body>
