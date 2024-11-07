@@ -14,27 +14,21 @@ body {
     height: auto;
 }
 
-h1 {
+.personal h1 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2rem;
     margin-top: 3%;
-    color: rgb(92, 21, 21);
+    color: rgb(0, 0, 0);
     position: relative;
     transition: transform 0.3s ease, z-index 0.3s ease;
 }
-h2 {
+.personal h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-top: 2%;
     margin-bottom: 1%;
-    color: rgb(92, 21, 21);
-}
-
-.personal h1:hover{
-    z-index: 10;
-    transform: scale(1.1);
-    cursor: pointer;
+    color: rgb(0, 0, 0);
 }
 
 ul {
