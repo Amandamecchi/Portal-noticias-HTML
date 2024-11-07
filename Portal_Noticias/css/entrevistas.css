@@ -1,0 +1,30 @@
+main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.entrevista {
+    flex-direction: row;
+    max-width: 945px;
+}
+
+.entrevista h1 {
+    text-align: center;
+}
+
+.titulo {
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.titulo p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo h1 {
+    font-size: 30px;
+}
