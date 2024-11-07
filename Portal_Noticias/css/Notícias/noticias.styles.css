@@ -13,7 +13,8 @@ main {
 }
 
 .titulo {
-    text-align: center;
+    text-align: justify;
+    margin-top: 15px;
 }
 
 .titulo h1 {
@@ -21,7 +22,7 @@ main {
 }
 
 .titulo p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .imagem-noticia {
@@ -40,4 +41,5 @@ main {
 .conteudo p {
     text-align: justify;
     font-size: 24px;
+    margin: 10px;
 }
