@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/global.styles.css">
+    <link rel="stylesheet" href="/Portal_Noticias/css/art.carreira.styles.css">
+    <link rel="stylesheet" href="/Portal_Noticias/css/art.styles.css">
+    <link rel="stylesheet" href="/Portal_Noticias/css/Notícias/noticias.css">
+    <title>Notícias | Educação Física </title>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="container-headerimg">
+                <img src="/Portal_Noticias/images/logo/sessi.jpg" alt="Logo">
+                <img src="/Portal_Noticias/images/logo/senaai.jpg" alt="Logo">
+            </div>
+            <div class="divisor"></div>
+            <nav class="header-nav">
+                <ul class="links">
+                    <li><strong><a href="/index.html" class="nav-link">Home</a></strong></li>
+                    <li><strong><a href="/Portal_Noticias/pages/sobre-nos.html" class="nav-link">Sobre Nós</a></strong></li> 
+                    <li><strong><a href="/Portal_Noticias/pages/cadastro.html" class="nav-link">Cadastre-se</a></strong></li>
+                </ul>
+            </nav>
+            <div class="icon_menu" id="menuIcon">
+                <div class="line1"></div>
+                <div class="line2"></div> 
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <nav class="menu-dropdown" id="menuDropdown">
+        <ul>
+            <li><a href="./sobre-conteudos.html">Conteúdos</a></li>
+            <li><a href="./dicas.html">Dicas</a></li>
+            <li><a href="./noticias.html">Notícias</a></li>
+            <li><a href="./carreiras.html">Carreiras</a></li>
+            <li><a href="./simulados.html">Simulados</a></li>
+            </ul>
+    </nav>
+
+    <main>
+        <div class="noticia">
+            <div class="titulo">
+                <h1>Benefícios do Alongamento: Escolas Introduzem Sessões de Alongamento Antes das Aulas</h1>
+            </div>
+            <div class="imagem-noticia">
+                <div class="imagem">
+                    <img src="/Portal_Noticias/images/noticias/noticia2.jpeg">
+                </div>
+            </div>
+    
+            <div class="conteudo">
+                <p>Em várias escolas, dispositivos vestíveis, como monitores de frequência cardíaca e contadores de passos, estão sendo incorporados às aulas de educação física para acompanhar o progresso físico dos alunos. Esses aparelhos fornecem dados em tempo real, ajudando professores a entender melhor o nível de atividade de cada estudante.
+                </p>
+                <p>Com essas informações, os professores podem personalizar os exercícios de acordo com as necessidades individuais, ajustando a intensidade e a duração das atividades para promover um desenvolvimento físico adequado e seguro. Essa abordagem permite que alunos com diferentes condições físicas participem das atividades de forma mais equilibrada.</p>
+                <p>Além de promover a saúde, o uso desses dispositivos visa estimular os alunos a adotarem um estilo de vida mais ativo e consciente. A expectativa é que essa tecnologia ajude a desenvolver o autocuidado, incentivando os estudantes a monitorarem e valorizarem seu bem-estar físico ao longo de sua formação escolar.</p>
+            </div>
+        </div>
+
+    </main>
+    <div class="barra-icones">
+        <div class="icones">
+            <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"
+            ><img src="/Portal_Noticias/images/icones/facebook-f.png" alt="facebook"
+            /></a>
+            <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
+            ><img src="/Portal_Noticias/images/icones/instagram-new.png" alt="instagram"
+            /></a>
+            <a href="https://api.whatsapp.com/send?phone=551133220050"
+            ><img src="/Portal_Noticias/images/icones/whatsapp.png" alt="whatsapp"
+            /></a>
+            <a
+            href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
+            ><img src="/Portal_Noticias/images/icones/youtube-play.png"
+            alt="youtube"
+            /></a>
+            <a href="https://www.linkedin.com/school/senai-de-valinhos/"
+            ><img src="/Portal_Noticias/images/icones/linkedin.png"
+            alt="linkedin"></a>
+        </div>
+    </div>
+    <footer class="enderecos">
+        <div>
+            <h2>EDIFÍCIO REDE SENAI Valinhos</h2>
+            <p>
+                R. Artur Fernandes Querido, 55 - Vila Santo<br />Antonio, Valinhos -
+                    SP, 13270-530
+            </p>
+        </div>
+        <div class="divisor-footer"></div>
+        <div>
+            <h2>EDIFÍCIO REDE SESI Valinhos</h2>
+            <p>
+                Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP,
+                    13273-450
+            </p>
+        </div>  
+    </footer>
+    <script>
+        const menuIcon = document.getElementById('menuIcon');
+        const menuDropdown = document.getElementById('menuDropdown');
+        menuIcon.addEventListener('click', () => {
+        menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
+        });
+        document.addEventListener('click', (event) => {
+        if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
+            menuDropdown.style.display = 'none';
+        }
+        });
+    </script>
+</body>
+</html>

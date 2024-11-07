@@ -9,6 +9,7 @@ body{
     flex-direction: column;
 }
 
+
 h1{
     margin-top: 5%;
     font-size: 3rem;
@@ -24,7 +25,7 @@ p {
     margin-top: 1%;
     display: grid;
     gap: 20px;
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -37,12 +38,15 @@ p {
     margin: 4%;
     flex-direction: row;
     box-sizing: border-box;
+    /*width: 50rem;*/
 }
 
 .noticias img{
     width: 200px;
     height: 200px;
     border-radius: 10px;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 .conteudo-noticia{
