@@ -31,10 +31,34 @@ h2 {
     border-radius: 10px;
 }
 
+.piu {
+    width: 100%;
+    margin-top: 2.3rem;
+    border-radius: 8px;
+}
+
+.piu3 {
+    width: 100%;
+    margin-top: 2.3rem;
+    border-radius: 8px;
+}
+
 .aquecimento {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.exercicio1 {
+    flex: 1 1 200px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    gap: 10rem;
 }
 
 .exercicio {
@@ -46,10 +70,13 @@ h2 {
     text-align: center;
 }
 
-.exercicio h3 {
-    color: #e02d18;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+.exercicio3 {
+    flex: 1 1 200px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
 }
 
 .exercicio p {
