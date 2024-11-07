@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dicas</title>
-    <link rel="stylesheet" href=".././css/dicas.css">
     <link rel="stylesheet" href="/global.styles.css">
-    <link rel="shortcut icon" href="../images/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Portal_Noticias/css/art.carreira.styles.css">
+    <link rel="stylesheet" href="/Portal_Noticias/css/art.styles.css">
+    <link rel="stylesheet" href="/Portal_Noticias/css/Notícias/noticias.css">
+    <title>Notícias | Educação Física </title>
 </head>
-
 <body>
     <header>
         <div class="container-header">
             <div class="container-headerimg">
-                <img src=".././images/logo/sessi.jpg" alt="Logo">
-                <img src=".././images/logo/senaai.jpg" alt="Logo">
+                <img src="/Portal_Noticias/images/logo/sessi.jpg" alt="Logo">
+                <img src="/Portal_Noticias/images/logo/senaai.jpg" alt="Logo">
             </div>
             <div class="divisor"></div>
             <nav class="header-nav">
                 <ul class="links">
                     <li><strong><a href="/index.html" class="nav-link">Home</a></strong></li>
-                    <li><strong><a href=".././pages/sobre-nos.html" class="nav-link">Sobre Nós</a></strong></li> 
-                    <li><strong><a href="../pages/cadastro.html" class="nav-link">Cadastre-se</a></strong></li>
+                    <li><strong><a href="/Portal_Noticias/pages/sobre-nos.html" class="nav-link">Sobre Nós</a></strong></li> 
+                    <li><strong><a href="/Portal_Noticias/pages/cadastro.html" class="nav-link">Cadastre-se</a></strong></li>
                 </ul>
             </nav>
             <div class="icon_menu" id="menuIcon">
@@ -42,30 +41,42 @@
             </ul>
     </nav>
 
-    <div class="ligacao">
+    <main>
+        <div class="noticia">
+            <div class="titulo">
+                <h1>Escolas Investem em Aulas de Educação Física para Melhorar Saúde Mental dos Alunos</h1>
+            </div>
+            <div class="imagem-noticia">
+                <div class="imagem">
+                    <img src="/Portal_Noticias/images/noticias/noticia2.jpeg">
+                </div>
+            </div>
+    
+            <div class="conteudo">
+                <p>Pesquisas indicam que a prática regular de atividades físicas pode contribuir significativamente para o bem-estar emocional dos jovens. Exercícios físicos ajudam na liberação de hormônios como endorfina e serotonina, que promovem a sensação de bem-estar e relaxamento, aliviando sintomas de estresse.</p>
+                <p>Além disso, o aumento da atividade física escolar tem sido associado a melhorias no foco e na produtividade dos estudantes. Ao promoverem um ambiente escolar que valoriza o movimento e o autocuidado, as escolas esperam que os alunos possam se concentrar melhor em suas atividades acadêmicas e desenvolver habilidades para enfrentar desafios emocionais.</p>
+            </div>
+        </div>
 
-        <a href=".././pages/dicasArt.html"><img class="img-lig" src=".././images/músico.jpg" alt=""></a>
-        <a href=".././pages/dicasEd.html"><img class="img-lig" src=".././images/home-ef.jpg" alt=""></a>
-    </div>
-
+    </main>
     <div class="barra-icones">
         <div class="icones">
             <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"
-            ><img src=".././images/icones/facebook-f.png" alt="facebook"
+            ><img src="/Portal_Noticias/images/icones/facebook-f.png" alt="facebook"
             /></a>
             <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
-            ><img src=".././images/icones/instagram-new.png" alt="instagram"
+            ><img src="/Portal_Noticias/images/icones/instagram-new.png" alt="instagram"
             /></a>
             <a href="https://api.whatsapp.com/send?phone=551133220050"
-            ><img src=".././images/icones/whatsapp.png" alt="whatsapp"
+            ><img src="/Portal_Noticias/images/icones/whatsapp.png" alt="whatsapp"
             /></a>
             <a
             href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
-            ><img src=".././images/icones/youtube-play.png"
+            ><img src="/Portal_Noticias/images/icones/youtube-play.png"
             alt="youtube"
             /></a>
             <a href="https://www.linkedin.com/school/senai-de-valinhos/"
-            ><img src=".././images/icones/linkedin.png"
+            ><img src="/Portal_Noticias/images/icones/linkedin.png"
             alt="linkedin"></a>
         </div>
     </div>
@@ -90,13 +101,13 @@
         const menuIcon = document.getElementById('menuIcon');
         const menuDropdown = document.getElementById('menuDropdown');
         menuIcon.addEventListener('click', () => {
-          menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
+        menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
         });
         document.addEventListener('click', (event) => {
-          if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
+        if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
             menuDropdown.style.display = 'none';
-          }
+        }
         });
-      </script>
+    </script>
 </body>
 </html>

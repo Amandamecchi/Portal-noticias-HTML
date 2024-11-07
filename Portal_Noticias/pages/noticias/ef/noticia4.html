@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<html lang="en, pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dicas | Artes</title>
-    <link rel="stylesheet" href="../css/dicasArt.css">
     <link rel="stylesheet" href="/global.styles.css">
-    <link rel="shortcut icon" href="../images/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Portal_Noticias/css/art.carreira.styles.css">
+    <link rel="stylesheet" href="/Portal_Noticias/css/art.styles.css">
+    <link rel="stylesheet" href="/Portal_Noticias/css/Notícias/noticias.css">
+    <title>Notícias | Educação Física </title>
 </head>
 <body>
     <header>
         <div class="container-header">
             <div class="container-headerimg">
-                <img src=".././images/logo/sessi.jpg" alt="Logo">
-                <img src=".././images/logo/senaai.jpg" alt="Logo">
+                <img src="/Portal_Noticias/images/logo/sessi.jpg" alt="Logo">
+                <img src="/Portal_Noticias/images/logo/senaai.jpg" alt="Logo">
             </div>
             <div class="divisor"></div>
             <nav class="header-nav">
                 <ul class="links">
                     <li><strong><a href="/index.html" class="nav-link">Home</a></strong></li>
-                    <li><strong><a href=".././pages/sobre-nos.html" class="nav-link">Sobre Nós</a></strong></li> 
-                    <li><strong><a href=".././pages/cadastro.html" class="nav-link">Cadastre-se</a></strong></li>
+                    <li><strong><a href="/Portal_Noticias/pages/sobre-nos.html" class="nav-link">Sobre Nós</a></strong></li> 
+                    <li><strong><a href="/Portal_Noticias/pages/cadastro.html" class="nav-link">Cadastre-se</a></strong></li>
                 </ul>
             </nav>
             <div class="icon_menu" id="menuIcon">
@@ -40,52 +41,43 @@
             </ul>
     </nav>
 
-    <div class="title1">
-        <div class="title">
-            <h1 class="title1">DICAS</h1>
-          <p class="text1'">Transforme sua paixão pela arte, explore técnicas, descubra materiais e aprenda os segredos dos mestres para 
-            aprimorar sua habilidade artística, nossa página oferece orientações para artista de todos os níveis,
-            crie e veja o mundo através das letras da arte.
-          </p>
-        </div>
-    </div>
+    <main>
+        <div class="noticia">
+            <div class="titulo">
+                <h1>Escolas Investem em Aulas de Educação Física para Melhorar Saúde Mental dos Alunos</h1>
+            </div>
+            <div class="imagem-noticia">
+                <div class="imagem">
+                    <img src="/Portal_Noticias/images/noticias/noticia2.jpeg">
+                </div>
+            </div>
     
-    <section class="arts-section">
-        <div class="arts-grid">
-            <div class="art-item">
-               <a href=".././pages/teoriaArte.html"><img src="../images/teoria.webp" alt="Renascimento"></a>
-                <p class="title-conteudo">Teoria da arte</p>
-            </div>
-            <div class="art-item">
-                <a href=".././pages/histArt.html"><img src=".././images/músico.jpg" alt="Modernismo"></a>
-                <p class="title-conteudo">História da arte</p>
-            </div>
-            <div class="art-item">
-                <a href=".././pages/elementosArt.html"><img src="../images/elementos.webp" alt="Arte Contemporânea"></a>
-                <p class="title-conteudo">Elementos da arte</p>
-            </div>
+            <div class="conteudo">
+                <p>O Ministério da Educação anunciou novas diretrizes para tornar as aulas de educação física mais inclusivas, visando abranger alunos com diferentes habilidades e necessidades. Essas mudanças buscam garantir que todos os estudantes, independentemente de limitações físicas, possam participar das atividades.</p>
+                <p>As novas orientações incentivam práticas adaptativas, que permitem aos professores ajustar as atividades para atender às diversas capacidades motoras dos alunos. Dessa forma, a educação física deixa de ser uma disciplina restrita a habilidades atléticas e passa a valorizar o desenvolvimento individual.</p>
+                <p>Ao promover uma educação física inclusiva, o Ministério visa não só fortalecer as capacidades motoras dos estudantes, mas também estimular a convivência e o respeito à diversidade. A expectativa é que essas práticas contribuam para um ambiente escolar mais acolhedor e colaborativo.</p>
             </div>
         </div>
-    </section>
-    
+
+    </main>
     <div class="barra-icones">
         <div class="icones">
             <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"
-            ><img src=".././images/icones/facebook-f.png" alt="facebook"
+            ><img src="/Portal_Noticias/images/icones/facebook-f.png" alt="facebook"
             /></a>
             <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
-            ><img src=".././images/icones/instagram-new.png" alt="instagram"
+            ><img src="/Portal_Noticias/images/icones/instagram-new.png" alt="instagram"
             /></a>
             <a href="https://api.whatsapp.com/send?phone=551133220050"
-            ><img src=".././images/icones/whatsapp.png" alt="whatsapp"
+            ><img src="/Portal_Noticias/images/icones/whatsapp.png" alt="whatsapp"
             /></a>
             <a
             href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
-            ><img src=".././images/icones/youtube-play.png"
+            ><img src="/Portal_Noticias/images/icones/youtube-play.png"
             alt="youtube"
             /></a>
             <a href="https://www.linkedin.com/school/senai-de-valinhos/"
-            ><img src=".././images/icones/linkedin.png"
+            ><img src="/Portal_Noticias/images/icones/linkedin.png"
             alt="linkedin"></a>
         </div>
     </div>
@@ -110,13 +102,13 @@
         const menuIcon = document.getElementById('menuIcon');
         const menuDropdown = document.getElementById('menuDropdown');
         menuIcon.addEventListener('click', () => {
-          menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
+        menuDropdown.style.display = menuDropdown.style.display === 'none' || menuDropdown.style.display === '' ? 'block' : 'none';
         });
         document.addEventListener('click', (event) => {
-          if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
+        if (!menuIcon.contains(event.target) && !menuDropdown.contains(event.target)) {
             menuDropdown.style.display = 'none';
-          }
+        }
         });
-      </script>
+    </script>
 </body>
 </html>
