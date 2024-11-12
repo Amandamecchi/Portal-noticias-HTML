@@ -31,8 +31,8 @@ body {
 }
 
 .container-headerimg img{
-   width: 90%;
-   height: 110%;
+   width: 100%;
+   height: 90%;
    margin-right: 0.5rem;
 }
 

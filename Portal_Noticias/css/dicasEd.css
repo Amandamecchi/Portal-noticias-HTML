@@ -161,3 +161,7 @@ body {
     line-height: 2.3rem;
 }
 
+.roberto {
+    max-width: 350px;
+    max-height: 350px;
+}
