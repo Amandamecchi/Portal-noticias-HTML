@@ -5,16 +5,6 @@ align-items: center;
 height: 600px;
 }
 
-.button {
-text-decoration: none;
-padding: 10px 20px;
-font-size: 18px;
-color: black;
-}
-
-.button:hover {
-color: rgb(141, 9, 9); 
-}
 img {
 max-width: 700px;
 max-height: 700px; 
@@ -32,7 +22,7 @@ margin-bottom: 30px;
 
 .conteudo h1 {
 font-size: 50px;
-color: #e30613;
+color: #000000;
 text-align: center;
 margin-bottom: 20px;
 }

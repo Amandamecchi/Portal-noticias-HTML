@@ -58,6 +58,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 400px;
     margin: 50px auto;
+    margin-top: 12rem;
 }
 
 .form-group {
@@ -115,4 +116,8 @@ button:hover {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+}
+
+main{
+    height: 50rem;
 }
