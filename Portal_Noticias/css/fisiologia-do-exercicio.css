@@ -27,14 +27,39 @@ h2 {
     margin-top: 30px;
 }
 
-.rasta {
-    border-radius: 5px;
+.fisio{
+    border-radius: 10px;
+}
+
+.piu {
+    width: 100%;
+    margin-top: 2.3rem;
+    border-radius: 8px;
+}
+
+.piu3 {
+    height: 9.3rem;
+    width: 90%;
+    margin-top: 2.3rem;
+    border-radius: 8px;
 }
 
 .aquecimento {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.exercicio1 {
+    flex: 1 1 200px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    gap: 10rem;
 }
 
 .exercicio {
@@ -46,40 +71,60 @@ h2 {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    .conteudo {
-        padding: 15px;
-        margin: 10px;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    h2 {
-        font-size: 1.3rem;
-    }
-
-    .aquecimento {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .exercicio {
-        flex: 1 1 auto;
-    }
+.exercicio3 {
+    flex: 1 1 200px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
 }
 
-@media (max-width: 480px) {
-    h1 {
-        font-size: 1.5rem;
-    }
+.exercicio p {
+    color: #333;
+    margin-bottom: 10px;
+}
 
-    h2 {
-        font-size: 1.2rem;
-    }
+.exercicio img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
 
-    .exercicio h3 {
-        font-size: 1rem;
-    }
+
+.barra-icones {
+    display: flex;
+    background-color: #e30613;
+    justify-content: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+.icones {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    width: 25px;
+    gap: 5rem;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+.icones img {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+} 
+
+.divisor-footer {
+    background-color: rgb(255, 255, 255);
+    height: 6rem;
+    width: 0.2rem;
+    justify-content: center;
+    margin-right: 0.6rem;
+}
+
+.principal {
+    border-radius: 20px;
+    margin-top: 15px;
 }
