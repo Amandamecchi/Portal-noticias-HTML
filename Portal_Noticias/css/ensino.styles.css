@@ -73,7 +73,7 @@ li {
     transition: 0.4s ease-in-out;
 }
 
-p {
+.conteudo-ensino p {
     margin-bottom: 15px;
     margin: 2% 5%;
     text-align: justify;
