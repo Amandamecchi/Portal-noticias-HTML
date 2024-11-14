@@ -183,43 +183,80 @@ footer {
 
 .title {
    font-size: larger;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   font-style: normal;
-   color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #000000;
+   margin-top: 2rem;
+}
+.title1 {
+   font-size: larger;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #000000;
+   margin-top: 2rem;
 }
 
 .container {
-   background-color: gray;
-   width: 300px;
-   height: 200px;
+   background-color: rgb(148, 148, 148);
+   width: 22rem;
+   height: 22rem;
    border-radius: 10px;
    justify-content: center;
    display: flex;
-   align-items: center;
-   margin-left: 38%;
    margin-block-end: 30px;
-}
-
-h1 {
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   text-align: center;
    margin-top: 10px;
 }
 
+
 .sub-title {
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   font-style: normal;
-   color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #000000;
+   margin-top: 2rem;
+   font-size: larger;
+}
+.sub-title1 {
+   font-family: Arial, Helvetica, sans-serif;
+   color: #000000;
+   margin-top: 2rem;
+   font-size: larger;
+}
+.sub-title2 {
+   font-family: Arial, Helvetica, sans-serif;
+   color: #000000;
+   margin-top: 2rem;
+   font-size: larger;
 }
 
 .container2 {
-   background-color: gray;
-   width: 300px;
-   height: 200px;
+   background-color: rgb(148, 148, 148);
+   width: 22rem;
+   height: 22rem;
    border-radius: 10px;
    justify-content: center;
    display: flex;
    align-items: center;
-   margin-left: 43%;
    margin-block-end: 30px;
+   margin-top: 10px;
+}
+
+.title-princi{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 1.5rem;
+   justify-content: center;
+   display: flex;
+   margin-top: 15px;
+}
+
+.alinhar{
+   justify-content: center;
+   display: grid;
+}
+
+.title2{
+   font-size: larger;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #000000;
+   margin-top: 10px;
+}
+
+.simulado2{
+   margin: auto;
 }
