@@ -95,13 +95,22 @@ li {
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     h2 {
         font-size: 1.3rem;
     }
-    p, ul {
-        font-size: 1rem;
+    .personal p, ul {
+        font-size: 0.8rem;
+    }
+    .personal img {
+        width: 50vw;
+    }
+    .cref img {
+        width: 50vw;
+    }
+    .cref p {
+        font-size: 0.7rem; ;
     }
     ul {
         padding-left: 1.6em;

@@ -171,6 +171,9 @@ body{
         margin-left: 2%;
         margin-right: 2%;
     }
+    .primeiro-paragrafo h1 {
+        font-size: 2rem;
+    }
     .noticias {
         margin: 1%;
         padding: 0.5rem;
