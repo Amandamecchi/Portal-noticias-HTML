@@ -1,13 +1,10 @@
-/* Estilos para o conteúdo textual da página de artes */
 
-/* Estilo geral para o container */
 .container {
     max-width: 75rem;
     margin: 0 auto;
     padding: 2rem;
   }
   
-  /* Título principal */
   .container h1 {
     font-weight: 900;
     font-size: 3rem;
@@ -17,7 +14,6 @@
     font-family: 'Arial';
   }
   
-  /* Estilos para os subtítulos (h2) */
   .container h2 {
     font-size: 2rem;
     color: #000000;
@@ -26,7 +22,6 @@
     font-family: 'Arial', sans-serif;
   }
   
-  /* Estilo para os parágrafos */
   .container p {
     font-size: 1.5rem;
     line-height: 1.6;

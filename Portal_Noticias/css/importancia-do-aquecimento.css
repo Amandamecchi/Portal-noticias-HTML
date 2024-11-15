@@ -123,3 +123,8 @@ h2 {
     justify-content: center;
     margin-right: 0.6rem;
 }
+
+.principal {
+    border-radius: 20px;
+    margin-top: 15px;
+}

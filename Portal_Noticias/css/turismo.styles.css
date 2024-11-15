@@ -19,7 +19,7 @@ h1 {
     cursor: pointer;
 }
 
-p {
+.container-turismo p {
     text-align: justify;
     margin-bottom: 30px;
     margin-top: 30px;

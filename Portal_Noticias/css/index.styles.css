@@ -1,50 +1,110 @@
+.intro-ef {
+  display: flex;
+}
 
-.container {
-  background-color: #ffffff;
+.intro-art {
+  display: flex;
+}
+
+.contaainer img {
+  max-width: 100%;
+  border-radius: 5%;
   padding: 2.2rem;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  } 
+}
 
-  .conteudo {
-    padding: 4rem;
-    margin: 0 auto 1.2rem auto;
-    border-radius: 0.5rem;
-    text-align: center;
-    width: 90%;
-    align-items: center;
-  }
+.container p {
+  padding: 1%;
 
-  .conteudo img {
-    max-width: 100%;
-    border-radius: 5%;
-    padding: 2.2rem;
-  }
+}
 
-  .conteudo p {
-    padding: 1%;
-    
-  }
-
-  .phome-intro {
+.phome-intro {
   font-size: 1.3rem;
   line-height: 2rem;
-  }
+}
 
-  .p-text {
+.p-text {
   font-size: 1.2rem;
   line-height: 2rem;
   text-align: justify;
   margin-left: 5rem;
   margin-right: 5rem;
-  }
+}
+
+h2 {
+  margin-top: 6rem;
+}
 
 
-  h2 {
-    margin-top: 6rem;
-  }
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 37rem;
+  width: 100%;
 
-      img {
-        max-width: 90rem;
-      }
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.intro-ef {
+  align-items: center;
+}
+
+.intro-artes {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 2rem;
+}
+
+.title-home {
+  margin-top: 5rem;
+}
+
+.title-art {
+  font-size: 2rem;
+}
+
+.title-ef {
+  font-size: 2rem;
+
+}
+
+.txt-ef {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.img-ef {
+  width: 60%;
+  height: 40rem;
+  margin-left: 2rem;
+}
