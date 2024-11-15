@@ -73,7 +73,7 @@ li {
     transition: 0.4s ease-in-out;
 }
 
-p {
+.conteudo-ensino p {
     margin-bottom: 15px;
     margin: 2% 5%;
     text-align: justify;
@@ -126,14 +126,16 @@ p {
     h2 {
         font-size: 1.2rem;
     }
-    p, ul, .ensino-content {
+    .ensino-content p, ul {
         font-size: 0.9rem;
-        margin: 5%;
+        margin: 3%;
     }
+
     ul {
         padding-left: 1.5em;
     }
     .ensino-img img {
         max-width: 100%;
+        margin-bottom: 1%;
     }
 }

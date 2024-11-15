@@ -55,7 +55,7 @@ body {
     color: rgb(0, 0, 0);
     margin: 3rem 5%;
 }
-p {
+.container-marketing p {
     text-align: center;
     margin: 3rem 5%;
     font-size: 1.6rem; 
@@ -78,46 +78,65 @@ li {
 }
 
 @media (max-width: 1200px) {
-    .header-nav ul li {
-        margin-left: 1.5vw;
+    .container-marketing h1 {
+        font-size: 2.5rem;
     }
-    p, ul {
-        font-size: 1.25rem;
+
+    .container-marketing h2 {
+        font-size: 2rem;
+        margin: 2rem 3%;
+    }
+    .container-marketing p {
+        font-size: 1.3rem;
+        margin:  2rem 3%;
+    }
+
+    ul {
+        margin:  2rem 3%;
+        font-size: 1.3rem;
+    }
+
+    .marketing-imagem  {
+        margin-top: 1rem;
     }
 }
 
 @media (max-width: 768px) {
-    .header-nav ul {
+    .marketing-imagem {
         flex-direction: column;
-        align-items: center;
+        gap: 1rem;
     }
-    .header-nav ul li {
-        margin-left: 0;
-        margin-bottom: 1rem;
+    .container-marketing h1  {
+        font-size: 2rem;
     }
-    .header-banner {
-        height: 30vh;
+    .container-marketing h2 {
+        font-size: 1.8rem;
     }
-    p, ul {
-        font-size: 1.6rem;
+    .container-marketing p {
+        font-size: 1.2rem;
+        margin: 1rem 5%;
     }
 }
+
 @media (max-width: 480px) {
-    .logo-header img {
-        max-height: 20vw;
-    }
-    .header-banner {
-        height: 20vh;
-    }
-    .marketing-esportivo h2 {
+    .container-marketing h1 {
         font-size: 1.5rem;
     }
-    .marketing-esportivo p, p, ul {
+    .container-marketing h2 {
+        font-size: 1.5rem;
+    }
+
+    .container-marketing p {
         font-size: 1rem;
-        margin-left: 3%;
-        margin-right: 3%;
+        margin: 1rem 3%;
     }
-    .vertical-line {
-        height: 4vh;
+    .container-marketing ul {
+        font-size: 1rem;
+        margin: 1rem 3%;
     }
+    
+    .marketing-imagem img {
+        max-width: 90%;
+    }
+
 }
