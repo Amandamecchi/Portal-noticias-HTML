@@ -6,7 +6,7 @@
 }
 
 body {
-   background-color: rgb(255, 255, 255);
+   background-color: #ffffff;
    display: flex;
    flex-direction: column;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .divisor{
-   background-color: rgb(255, 255, 255);
+   background-color: #ffffff;
    height: 5rem;
    width: 0.2rem;
    margin: 0 300px;
@@ -55,7 +55,7 @@ body {
 }
 
 .line1, .line2, .line3 {
-   background-color: white;
+   background-color: #ffffff;
    height: 4px;
    width: 100%;
    border-radius: 2px;
@@ -69,6 +69,7 @@ body {
    right: 80px;
    width: 150px;
    border-radius: 8px;
+   z-index: 10;
 }
 
 .menu-dropdown ul {
@@ -84,13 +85,13 @@ body {
 
 .menu-dropdown ul li a {
    text-decoration: none;
-   color: rgb(255, 255, 255);
+   color: #ffffff;
    font-size: 16px;
    display: block;
 }
 
 .menu-dropdown ul li a:hover {
-   background-color: rgba(255, 255, 255, 0.356);
+   background-color: #ffffff5b;
    padding: 9px;
    border-radius: 3px;
    margin-right: 4px;
@@ -120,7 +121,7 @@ nav ul li {
 
 nav ul li a {
    text-decoration: none;
-   color: white;
+   color: #ffffff;
    font-size: 1.2rem;
 }
 
@@ -130,7 +131,7 @@ nav ul li a {
    background-color: #e30613;
    justify-content: center;
    width: 100%;
-   margin-top: auto;
+   ;
 }
 
 .icones {
@@ -150,7 +151,7 @@ nav ul li a {
 }
 
 .divisor-footer {
-   background-color: rgb(255, 255, 255);
+   background-color: #ffffff;
    height: 6rem;
    width: 0.2rem;
    justify-content: center;
@@ -166,15 +167,25 @@ footer {
    width: 100%;
    height: 100%;
    background-color: #9a1915;
-   color: white;
+   color: #ffffff;
    flex-wrap: wrap;
    position: relative;
-   margin-top: auto;
+
 }
 
 .divisor-footer {
-   background-color: rgb(255, 255, 255);
+   background-color: #ffffff;
    height: 6rem;
    width: 0.2rem;
    justify-content: center;
 }
+
+.info-senai {
+   align-content: center;
+   
+}
+
+.info-sesi {
+   align-content: center;
+}
+
