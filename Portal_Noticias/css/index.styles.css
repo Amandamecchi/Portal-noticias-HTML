@@ -14,7 +14,6 @@
 
 .container p {
   padding: 1%;
-
 }
 
 .phome-intro {
@@ -34,13 +33,12 @@ h2 {
   margin-top: 6rem;
 }
 
-
 .slider {
   position: relative;
   overflow: hidden;
   height: 37rem;
   width: 100%;
-
+  z-index: 1;
 }
 
 .slide {
@@ -63,7 +61,6 @@ h2 {
 }
 
 .container {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
