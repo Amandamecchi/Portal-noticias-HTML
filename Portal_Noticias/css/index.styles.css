@@ -16,11 +16,16 @@
   padding: 1%;
 }
 
+.title-home {
+  text-align: center;
+}
+
 .phome-intro {
   font-size: 1.3rem;
   line-height: 2rem;
+
+  margin-bottom: 4rem;
   text-align: center;
-  margin bottom: 2rem;
 }
 
 .p-text {
@@ -69,6 +74,7 @@
   align-items: center;
   margin-top: 6rem;
   margin-bottom: 8rem;
+
 }
 
 .intro-artes {
@@ -95,15 +101,22 @@
 
 .txt-ef {
   text-align: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
+  margin-bottom: 2rem;
+}
+
+.txt-art {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .img-ef {
   width: 60%;
   height: 40rem;
   margin-left: 2rem;
+}
+
+.img-art {
+  width: 60%;
+  height: 40rem;
+  margin-right: 2rem;
 }
