@@ -17,10 +17,15 @@ h1 {
     color: #000000;
     margin-top: 2%;
 }
-p {
-    text-align: justify;
+
+h3{
+    font-size: 0.9rem;
+}
+
+.ppp {
+    text-align: center;
     margin: 1% 5% 2% 5%;
-    font-size: 1.9rem; 
+    font-size: 0.7rem; 
 }
 
 .container {
@@ -37,12 +42,12 @@ p {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 300px;
+    width: 200px;
     transition: transform 0.3s ease;
 }
 
 .member img {
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 10px;
