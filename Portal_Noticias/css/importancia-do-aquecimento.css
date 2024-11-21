@@ -27,17 +27,14 @@ h2 {
     margin-top: 30px;
 }
 
-.ak{
+.ak {
     border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1.2rem;
 }
 
-.piu {
-    width: 100%;
-    margin-top: 2.3rem;
-    border-radius: 8px;
-}
-
-.piu3 {
+.piu, .piu2, .piu3 {
     width: 100%;
     margin-top: 2.3rem;
     border-radius: 8px;
@@ -51,26 +48,7 @@ h2 {
     min-height: 100%;
 }
 
-.exercicio1 {
-    flex: 1 1 200px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    text-align: center;
-    gap: 10rem;
-}
-
-.exercicio {
-    flex: 1 1 200px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.exercicio3 {
+.exercicio, .exercicio1, .exercicio3 {
     flex: 1 1 200px;
     padding: 10px;
     background-color: #f9f9f9;
@@ -85,12 +63,10 @@ h2 {
 }
 
 .exercicio img {
-    max-width: 10%;
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
-    max-width: 100%;
 }
-
 
 .barra-icones {
     display: flex;
@@ -114,7 +90,7 @@ h2 {
     display: inline-block;
     height: 30px;
     width: 30px;
-} 
+}
 
 .divisor-footer {
     background-color: rgb(255, 255, 255);
@@ -127,4 +103,74 @@ h2 {
 .principal {
     border-radius: 20px;
     margin-top: 15px;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .conteudo {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .exercicio, .exercicio1, .exercicio3 {
+        flex: 1 1 45%;
+    }
+
+    .icones {
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteudo {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .exercicio, .exercicio1, .exercicio3 {
+        flex: 1 1 100%;
+    }
+
+    .icones {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteudo {
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .icones {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .icones img {
+        height: 20px;
+        width: 20px;
+    }
 }
