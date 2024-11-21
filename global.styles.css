@@ -165,7 +165,6 @@ nav ul li a {
 
 footer {
    display: flex;
-   flex-direction: row;
    justify-content: space-around;
    align-items: center;
    gap: 1rem;
@@ -175,6 +174,7 @@ footer {
    color: #ffffff;
    flex-wrap: wrap;
    position: relative;
+
 }
 
 .divisor-footer {
@@ -184,11 +184,11 @@ footer {
    justify-content: center;
 }
 
+
 .info-senai, .info-sesi {
    text-align: center;
 }
 
-/* Media Queries */
 @media (max-width: 1024px) {
    .container-header {
        padding: 0 1rem;
@@ -229,6 +229,16 @@ footer {
        top: 60px;
        right: 10px;
    }
+
+.info-senai {
+   justify-content: center;
+   align-items: center;
+   height: 50%;
+}
+
+.info-sesi {
+   justify-content: center;
+
 }
 
 @media (max-width: 480px) {

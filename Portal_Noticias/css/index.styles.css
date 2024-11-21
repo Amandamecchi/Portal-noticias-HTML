@@ -16,9 +16,16 @@
   padding: 1%;
 }
 
+.title-home {
+  text-align: center;
+}
+
 .phome-intro {
   font-size: 1.3rem;
   line-height: 2rem;
+
+  margin-bottom: 4rem;
+  text-align: center;
 }
 
 .p-text {
@@ -27,10 +34,6 @@
   text-align: justify;
   margin-left: 5rem;
   margin-right: 5rem;
-}
-
-h2 {
-  margin-top: 6rem;
 }
 
 .slider {
@@ -69,6 +72,9 @@ h2 {
 
 .intro-ef {
   align-items: center;
+  margin-top: 6rem;
+  margin-bottom: 8rem;
+
 }
 
 .intro-artes {
@@ -76,10 +82,12 @@ h2 {
   display: flex;
   flex-direction: row-reverse;
   margin-right: 2rem;
+  margin-bottom: 6rem;
 }
 
 .title-home {
   margin-top: 5rem;
+  text-align: center;
 }
 
 .title-art {
@@ -93,11 +101,12 @@ h2 {
 
 .txt-ef {
   text-align: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
+  margin-bottom: 2rem;
+}
+
+.txt-art {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .img-ef {
