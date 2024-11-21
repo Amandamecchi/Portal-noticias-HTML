@@ -160,7 +160,6 @@ nav ul li a {
 
 footer {
    display: flex;
-   flex-direction: row;
    justify-content: space-around;
    align-items: center;
    gap: 1rem;
@@ -169,8 +168,6 @@ footer {
    background-color: #9a1915;
    color: #ffffff;
    flex-wrap: wrap;
-   position: relative;
-
 }
 
 .divisor-footer {
@@ -181,9 +178,11 @@ footer {
 }
 
 .info-senai {
-   
+   justify-content: center;
+   align-items: center;
+   height: 50%;
 }
 
 .info-sesi {
-
+   justify-content: center;
 }
