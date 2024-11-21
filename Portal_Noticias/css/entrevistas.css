@@ -40,7 +40,7 @@ main {
         gap: 25px;
     }
 
-    .entrevista h1 {
+    .entrevista h2 {
         font-size: 20px;
         margin-top: 10px;
     }
@@ -63,5 +63,42 @@ main {
     .entrevista iframe {
         width: 100%;
         height: 320px;
+    }
+}
+
+@media (max-width: 320px) {
+    main {
+        padding: 10px;
+        display: flex;
+    }
+
+    .entrevista {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .entrevista h2 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .entrevista p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .titulo h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .titulo p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .entrevistas iframe {
+        width: 100%;
+        height: 180px;
     }
 }
