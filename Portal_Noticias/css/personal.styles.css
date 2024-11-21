@@ -7,10 +7,10 @@ body {
     display: block;
     margin: 4% auto;
     border-radius: 10px;
-    box-shadow: 0 0 20px #070505;
+    box-shadow: 0 0 20px #6b6b6b;
     cursor: pointer;
     transition: 0.4s ease-in-out;
-    max-width: 30%;
+    width: 50%;
     height: auto;
 }
 
@@ -55,13 +55,12 @@ li {
 .cref img{
     width: 40%;
     height: auto;
-    margin: 2% auto 50px;
     display: block;
     transition: 0.4s ease-in-out;
 }
 .cref img:hover{
-    box-shadow: 0 0 20px #101720, 0 0 40px #2d2f31,
-    0 0 60px #181e24;
+    box-shadow: 0 0 20px #9b9b9b, 0 0 40px #999999,
+    0 0 60px #a5a5a5;
 }
 @media (max-width: 1200px) {
     h1 {
@@ -95,16 +94,17 @@ li {
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     h2 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .personal p, ul {
         font-size: 0.8rem;
     }
     .personal img {
-        width: 50vw;
+        width: 20rem;
+        height: auto;
     }
     .cref img {
         width: 50vw;

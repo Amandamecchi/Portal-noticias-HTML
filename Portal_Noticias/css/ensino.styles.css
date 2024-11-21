@@ -122,20 +122,36 @@ li {
 @media (max-width: 480px) {
     h1 {
         font-size: 1.5rem;
+        margin-bottom: 3%;
     }
     h2 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .ensino-content p, ul {
         font-size: 0.9rem;
         margin: 3%;
     }
+    .conteudo-ensino h2 {
+        font-size: 2rem;
+        margin-top: 3%;
+    }
+    .conteudo-ensino p, ul {
+        font-size: 0.9rem;
+    }
 
-    ul {
+    .conteudo-ensino img {
+        font-size: 2rem;
+        margin-top: 3%;
+    }
+
+    .conteudo-ensino ul {
         padding-left: 1.5em;
+        font-size: 0.9rem;
     }
     .ensino-img img {
-        max-width: 100%;
+        max-width: 90%;
         margin-bottom: 1%;
+        border-radius: 1%;
+        box-shadow: none;
     }
 }
