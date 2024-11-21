@@ -120,3 +120,70 @@
   height: 40rem;
   margin-right: 2rem;
 }
+
+@media (max-width: 1024px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img-ef, .img-art {
+    width: 90%;
+    height: auto;
+    margin: 0 auto 2rem auto;
+  }
+
+  .p-text {
+    margin: 2rem;
+  }
+
+  .slider {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .phome-intro {
+    font-size: 1.1rem;
+    margin: 2rem;
+  }
+
+  .title-home {
+    font-size: 1.8rem;
+  }
+
+  .txt-ef, .txt-art {
+    margin: 1rem;
+  }
+
+  .p-text {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container, .main-content {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .slider {
+    height: auto;
+  }
+
+  .img-ef, .img-art {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .p-text {
+    font-size: 0.9rem;
+  }
+
+  .title-home {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+}
