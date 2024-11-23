@@ -110,15 +110,17 @@
 }
 
 .img-ef {
-  width: 60%;
-  height: 40rem;
+  width: auto;
+  height: 20rem;
   margin-left: 2rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .img-art {
-  width: 60%;
-  height: 40rem;
+  width: auto;
+  height: 20rem;
   margin-right: 2rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 1024px) {
