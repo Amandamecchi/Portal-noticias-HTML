@@ -13,36 +13,12 @@ body {
     flex-direction: column;
 }
 
-.container_header {
-    background-color: #e20614;
-    height: 5rem;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 2rem;
-}
 
 .divisor {
     background-color: rgb(255, 255, 255);
     height: 5rem;
     width: 0.2rem;
     margin: 0 300px;
-}
-
-.container-headerimg {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.container-headerimg img {
-    height: 100%;
-    max-height: 100%;
-    width: auto;
-    max-width: 100%;
 }
 
 .divisor {
@@ -68,8 +44,8 @@ body {
 
 .container {
     margin-top: 1%;
- }
-  
+}
+
 .bloco {
     margin: 1% auto;
     display: grid;
