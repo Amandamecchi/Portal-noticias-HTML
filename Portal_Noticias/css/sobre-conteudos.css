@@ -52,7 +52,7 @@ a {
         transform: scale(1.1); 
 }
 
-p {
+.conteudo-artes p {
     font-size: 30px;
 }
 
@@ -161,3 +161,114 @@ p {
         border-radius: 5%;
     }
 }
+@media (max-width: 480px) {
+    
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+        font-size: 25px;
+    }
+
+    .conteudos {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 2rem;
+        justify-content: space-around;
+    }
+
+    .conteudo-artes, .conteudo-ef {
+        width: 90%;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .img-art, .img-ef {
+        width: 30rem;
+        height: 25rem;
+        border-radius: 5%;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    margin-bottom: 5rem;
+    }
+    
+    a {
+        font-size: 1rem;
+        text-decoration: none;
+        color: black;
+    }
+
+
+    .conteudo-artes img{
+        align-items: center;
+    }
+    .nav {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    nav ul {
+       display:  flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center  ;
+       gap: 1rem;
+    }
+
+    nav ul li a {
+       font-size: 1rem;
+    }
+    .icon_menu {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       width: 30px;
+       height: 20px;
+    }
+    
+    .line1,
+    .line2,
+    .line3 {
+       background-color: #ffffff;
+       height: 3px;
+       width: 100%;
+       border-radius: 2px;
+    }
+
+    .info-senai, .info-sesi {
+       text-align: center;
+       padding: 0.5rem 1rem;
+       width: 100%;
+    }
+    
+    .divisor-footer {
+       display: none;
+    }
+
+    .icones {
+       display: flex;
+       justify-content: center;
+       gap: 0.5rem;
+    }
+
+    .icones img {
+       width: 24px;
+       height: 24px;
+    }
+
+    footer {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       gap: 1rem;
+       padding: 1rem;
+       width: 100%;
+    }
+ }
