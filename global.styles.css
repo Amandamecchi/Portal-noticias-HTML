@@ -246,7 +246,19 @@ footer {
 
    @media (max-width: 480px) {
       .container-header {
-         padding: 0.5rem;
+         padding: 0.5rem 1rem;
+         flex-direction: row;
+         align-self: center;
+         justify-content: space-between;
+         padding: 0.5rem 1rem;
+         height: auto;
+      }
+      
+      .container-headerimg {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 0;
       }
 
       .container-headerimg img {
@@ -255,23 +267,38 @@ footer {
       }
 
       .nav {
-         flex-direction: column;
-         gap: 0.5rem;
+         display: flex;
+         justify-content: center;
+         align-items: center;
       }
 
       nav ul {
-         flex-direction: column;
-         gap: 0.5rem;
+         display:  flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center  ;
+         gap: 1rem;
       }
 
-      .icones {
-         flex-direction: column;
-         gap: 0.5rem;
+      nav ul li a {
+         font-size: 1rem;
       }
-
-      .icones img {
+      .icon_menu {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         width: 30px;
          height: 20px;
-         width: 20px;
       }
+      
+      .line1,
+      .line2,
+      .line3 {
+         background-color: #ffffff;
+         height: 3px;
+         width: 100%;
+         border-radius: 2px;
+      }
+
    }
 }
