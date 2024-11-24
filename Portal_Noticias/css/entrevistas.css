@@ -10,8 +10,22 @@ main {
     max-width: 945px;
 }
 
+.entrevista p {
+    flex-direction: row;
+    max-width: 945px;
+    margin-bottom: 7%;
+}
+
+.entrevista h2 {
+    flex-direction: row;
+    max-width: 945px;
+    margin-bottom: 1.5%;
+}
+
 .entrevista h1{
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 .titulo {
