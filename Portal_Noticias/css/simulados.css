@@ -195,7 +195,7 @@ footer {
 }
 
 .container {
-   background-color: rgb(148, 148, 148);
+   background-color: #e6e6e6;
    width: 22rem;
    height: 22rem;
    border-radius: 10px;
@@ -226,7 +226,7 @@ footer {
 }
 
 .container2 {
-   background-color: rgb(148, 148, 148);
+   background-color: #e6e6e6;
    width: 22rem;
    height: 22rem;
    border-radius: 10px;
@@ -259,4 +259,59 @@ footer {
 
 .simulado2{
    margin: auto;
+}
+
+@media (max-width: 1024px) {
+   .container {
+       width: 90%;
+   }
+
+   h1 {
+       font-size: 2.5rem;
+   }
+
+   .container-header {
+       padding: 0.5rem;
+   }
+
+   .title-princi {
+       font-size: 2.5rem;
+   }
+
+   .container img {
+       width: 100%;
+       height: auto;
+   }
+}
+
+@media (max-width: 768px) {
+   .container-header {
+       flex-direction: column;
+       padding: 0.5rem;
+   }
+
+   .container-headerimg {
+       width: 100%;
+       justify-content: center;
+       margin-top: 1rem;
+   }
+
+   .container {
+       width: 100%;
+   }
+}
+
+@media (max-width: 480px) {
+   .container-header {
+       padding: 0.5rem;
+   }
+
+   .title-princi {
+       font-size: 2rem;
+   }
+
+   .container img {
+       width: 100%;
+       height: auto;
+   }
 }
