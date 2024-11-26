@@ -101,7 +101,6 @@
 
 .title-ef {
   font-size: 2rem;
-
 }
 
 .txt-ef {
@@ -114,18 +113,16 @@
   margin-bottom: 1rem;
 }
 
-.img-ef {
+.txt-art, .txt-ef {
+  margin: 0 18rem 0 18rem;
+}
+
+.img-ef, .img-art {
   width: auto;
   height: auto;
   margin-left: 2rem;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-}
-
-.img-art {
-  width: auto;
-  height: auto;
-  margin-right: 2rem;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  padding: auto;
 }
 
 @media (max-width: 1024px) {
