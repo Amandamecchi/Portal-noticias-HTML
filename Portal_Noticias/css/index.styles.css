@@ -116,14 +116,14 @@
 
 .img-ef {
   width: auto;
-  height: 20rem;
+  height: auto;
   margin-left: 2rem;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .img-art {
   width: auto;
-  height: 20rem;
+  height: auto;
   margin-right: 2rem;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
