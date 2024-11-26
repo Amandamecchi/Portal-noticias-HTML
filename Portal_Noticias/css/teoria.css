@@ -1,17 +1,21 @@
-*{
+
+* {
    margin: 0;
    padding: 0;
-   box-sizing: border-box; 
-   font-family: Arial;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
    background-color: rgb(255, 255, 255);
    display: flex;
    flex-direction: column;
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
 }
 
-.container-header{
+
+.container-header {
    background-color: #e20614;
    height: 6rem;
    width: 100%;
@@ -20,6 +24,7 @@ body {
    align-items: center;
    justify-content: space-between;
    padding: 0 4rem;
+   flex-wrap: wrap; 
 }
 
 .container-headerimg {
@@ -30,20 +35,20 @@ body {
    width: 30%;
 }
 
-.container-headerimg img{
+.container-headerimg img {
    max-height: 100%;
    max-width: 100%;
    margin-right: 0.5rem;
 }
 
-.divisor{
+.divisor {
    background-color: rgb(255, 255, 255);
    height: 5rem;
    width: 0.2rem;
    margin: 0 300px;
 }
 
-.icon_menu{
+.icon_menu {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -96,12 +101,13 @@ body {
    margin-right: 4px;
 }
 
-.nav{
+
+.nav {
    width: 62%;
    display: flex;
    flex-direction: row;
    align-content: center;
-   justify-content:center;
+   justify-content: center;
    align-items: center;
    gap: 5rem;
 }
@@ -149,13 +155,6 @@ nav ul li a {
    width: 30px;
 }
 
-.divisor-footer {
-   background-color: rgb(255, 255, 255);
-   height: 6rem;
-   width: 0.2rem;
-   justify-content: center;
-   margin-right: 0.6rem;
-}
 
 footer {
    display: flex;
@@ -179,54 +178,28 @@ footer {
    justify-content: center;
 }
 
-.banner{
-    width: 100%;
-    height: 25rem;
-    margin-top: 5px;
+
+.banner {
+   width: 100%;
+   height: 25rem;
+   margin-top: 5px;
 }
 
-.conteudo{
+
+.conteudo {
    padding: 10px;
    margin-top: 5px;
 }
-.title-text{
+
+.title-text {
    font-size: larger;
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.escrita{
+
+.escrita {
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: medium;
 }
-
-body {
-   font-family: Arial, sans-serif;
-   line-height: 1.6;
-   margin: 0;
-   padding: 0;
-   background-color: #fdf6e3;
-}
-
-.conteudo {
-   max-width: 800px;
-   margin: 20px auto;
-   padding: 20px;
-   background-color: white;
-   border-radius: 8px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-   color: #e02d18;
-   font-size: 2rem;
-   margin-bottom: 20px;
-}
-
-h2 {
-   color: #ffffff;
-   font-size: 1.5rem;
-   margin-top: 30px;
-}
-
 
 .conteudo1 {
    display: flex;
@@ -260,8 +233,133 @@ h2 {
    height: auto;
    border-radius: 8px;
 }
+
 img {
    border-radius: 20px;
    margin-bottom: 2px;
    margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+   .container-header {
+       padding: 0 2rem;
+   }
+
+   .nav {
+       width: 70%;
+       gap: 3rem;
+   }
+
+   .conteudo1 {
+       gap: 15px;
+   }
+}
+
+@media (max-width: 1000px) {
+   .container-header {
+       flex-direction: column;
+       padding: 1rem;
+   }
+
+   .nav {
+       width: 100%;
+       flex-direction: column;
+       align-items: center;
+       gap: 3rem;
+   }
+
+   .menu-dropdown {
+       width: 100%;
+       position: absolute;
+       top: 60px;
+       right: 0;
+       z-index: 10;
+   }
+
+   .banner {
+       height: 20rem;
+   }
+
+   .conteudo {
+       padding: 15px;
+   }
+
+   .conteudo1 {
+       gap: 10px;
+   }
+}
+
+
+@media (max-width: 800px) {
+   .container-header {
+       flex-direction: column;
+       padding: 1rem;
+   }
+
+   .nav {
+       width: 100%;
+       gap: 2rem;
+       text-align: center;
+   }
+
+   .menu-dropdown {
+       right: 10px;
+       width: 100%;
+   }
+
+   .conteudo {
+       padding: 15px;
+   }
+
+   .banner {
+       height: 18rem;
+   }
+
+   .conteudo1 {
+       flex-direction: column;
+       gap: 20px;
+   }
+
+   .materia {
+       flex: 1 1 100%;
+   }
+}
+
+@media (max-width: 600px) {
+   .container-header {
+       padding: 1rem;
+   }
+
+   .nav {
+       gap: 1rem;
+       text-align: center;
+   }
+
+   .menu-dropdown {
+       width: 100%;
+       right: 0;
+   }
+
+   .banner {
+       height: 12rem;
+   }
+
+   .conteudo {
+       padding: 10px;
+   }
+
+   .materia {
+       flex: 1 1 100%;
+   }
+
+   .conteudo1 {
+       flex-direction: column;
+       gap: 15px;
+   }
+
+   .footer {
+       flex-direction: column;
+       align-items: center;
+       gap: 20px;
+   }
 }
