@@ -4,13 +4,24 @@
    font-weight: bold;
    text-align: center;
    color: #000;
-   margin-top: 2rem;
+   margin-top: 5rem;
 }
 
-.informacao {
-   font-size: medium;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+.title1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 4rem;
+    justify-content: center;
+    display: flex;
 }
+
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    justify-content: center;
+    display: flex;
+}   
 
 .arts-grid {
    display: grid;
@@ -33,6 +44,10 @@
 .art-item p {
    margin-top: 10px;
    font-weight: bold;
+}
+
+.arts-section{
+    height: 100vh;
 }
 
 
