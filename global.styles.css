@@ -148,7 +148,7 @@ nav ul li a {
 
 .icones img {
    display: inline-block;
-   height: 70px;
+   height: 30px;
    width: 30px;
 }
 
@@ -171,7 +171,6 @@ footer {
    color: #ffffff;
    flex-wrap: wrap;
    position: relative;
-
 }
 
 .divisor-footer {
