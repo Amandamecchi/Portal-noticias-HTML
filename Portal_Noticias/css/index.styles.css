@@ -41,6 +41,7 @@
   height: 37rem;
   width: 100%;
   z-index: 1;
+  min-height: 20rem; 
 }
 
 .slide {
@@ -164,6 +165,7 @@
 
   .slider {
     height: auto;
+    min-height: 20rem;
   }
 }
 
