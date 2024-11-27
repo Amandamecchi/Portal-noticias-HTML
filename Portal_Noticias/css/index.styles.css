@@ -115,10 +115,11 @@
 }
 
 .txt-art, .txt-ef {
-  margin: 0 18rem 0 18rem;
+  margin: 0 7rem 0 7rem;
 }
 
 .img-ef, .img-art {
+  justify-content: center;
   width: auto;
   height: auto;
   margin-left: 2rem;
