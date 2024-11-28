@@ -88,6 +88,7 @@
     justify-content: center;
     gap: 3vw; 
     margin-bottom: 10vh;
+    box-shadow: none;
 }
 
 .button-container {
@@ -139,10 +140,17 @@
         flex-direction: column;
         align-items: center;
     }
+    .button-container{
+        background: none;
+        box-shadow: none;
+        padding: 0;
+        
+    }
 
     .imagem-button img {
-        width: 40vw; 
+        width: 100%; 
         height: auto;
+        box-shadow: none;
     }
     .footer .enderecos {
         flex-direction: column;

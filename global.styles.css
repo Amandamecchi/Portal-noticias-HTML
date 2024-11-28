@@ -33,11 +33,8 @@ body {
 }
 
 .container-headerimg img {
-   width: auto;
-   height: 100%;
-   max-height: 100%;
-   max-width: 100%;
-   margin-right: 0.5rem;
+   height: 3rem; 
+   width: auto; 
    object-fit: contain;
 }
 
@@ -137,12 +134,12 @@ nav ul li a {
    background-color: #e30613;
    justify-content: center;
    width: 100%;
+   height: 2rem;
 }
 
 .icones {
    display: flex;
    height: 100%;
-   justify-content: space-between;
    width: auto;
    gap: 1rem;
    justify-content: center;
@@ -174,7 +171,6 @@ footer {
    color: #ffffff;
    flex-wrap: wrap;
    position: relative;
-
 }
 
 .divisor-footer {
@@ -217,6 +213,11 @@ footer {
       margin-bottom: 1rem;
    }
 
+   .container-headerimg img {
+      height: 2.5rem; 
+      max-width: 100%;
+   }
+
    .nav {
       width: 100%;
       justify-content: center;
@@ -244,27 +245,89 @@ footer {
 
    @media (max-width: 480px) {
       .container-header {
-         padding: 0.5rem;
+         padding: 0.5rem 1rem;
+         flex-direction: row;
+         align-self: center;
+         justify-content: space-between;
+         padding: 0.5rem 1rem;
+         height: auto;
+      }
+      
+      .container-headerimg {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 0;
+      }
+
+      .container-headerimg img {
+         height: 2rem; 
+         max-width: 100%;
       }
 
       .nav {
-         flex-direction: column;
-         gap: 0.5rem;
+         display: flex;
+         justify-content: center;
+         align-items: center;
       }
 
       nav ul {
+         display:  flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center  ;
+         gap: 1rem;
+      }
+
+      nav ul li a {
+         font-size: 1rem;
+      }
+      .icon_menu {
+         display: flex;
          flex-direction: column;
-         gap: 0.5rem;
+         justify-content: space-between;
+         width: 30px;
+         height: 20px;
+      }
+      
+      .line1,
+      .line2,
+      .line3 {
+         background-color: #ffffff;
+         height: 3px;
+         width: 100%;
+         border-radius: 2px;
+      }
+
+      .info-senai, .info-sesi {
+         text-align: center;
+         padding: 0.5rem 1rem;
+         width: 100%;
+      }
+      
+      .divisor-footer {
+         display: none;
       }
 
       .icones {
-         flex-direction: column;
+         display: flex;
+         justify-content: center;
          gap: 0.5rem;
       }
 
       .icones img {
-         height: 20px;
-         width: 20px;
+         width: 24px;
+         height: 24px;
+      }
+
+      footer {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+         gap: 1rem;
+         padding: 1rem;
+         width: 100%;
       }
    }
 }
