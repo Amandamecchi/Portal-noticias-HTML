@@ -84,8 +84,11 @@ h3{
 }
 
 p, .description {
-    font-size: 1.3rem;
+    
     margin: 1% 4% 1.5% 4%;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
 }
 
 @media (max-width: 992px) {
