@@ -43,3 +43,31 @@
     border: 2px solid #ccc;
     border-radius: 20px;
 }
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    .container p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 3%;
+    }
+
+    .container p {
+        font-size: 0.9rem;
+    }
+
+    .image-row {
+        width: 10 0%;
+        height: auto;
+    }
+    .image-row{
+        width: 100%;
+    }
+}

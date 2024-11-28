@@ -6,7 +6,7 @@
   display: flex;
 }
 
-.contaainer img {
+.container img {
   max-width: 100%;
   border-radius: 5%;
   padding: 2.2rem;
@@ -23,7 +23,6 @@
 .phome-intro {
   font-size: 1.3rem;
   line-height: 2rem;
-
   margin-bottom: 4rem;
   text-align: center;
 }
@@ -42,6 +41,7 @@
   height: 37rem;
   width: 100%;
   z-index: 1;
+  min-height: 20rem; 
 }
 
 .slide {
@@ -58,7 +58,7 @@
 
 .main-content {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -74,15 +74,21 @@
   align-items: center;
   margin-top: 6rem;
   margin-bottom: 8rem;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .intro-artes {
   align-items: center;
   display: flex;
-  flex-direction: row-reverse;
-  margin-right: 2rem;
+  flex-direction: column;
   margin-bottom: 6rem;
+}
+
+.img-ef, .img-art {
+  margin: 2rem 0;
+  width: auto;
+  height: auto;
 }
 
 .title-home {
@@ -96,7 +102,6 @@
 
 .title-ef {
   font-size: 2rem;
-
 }
 
 .txt-ef {
@@ -109,16 +114,17 @@
   margin-bottom: 1rem;
 }
 
-.img-ef {
-  width: 60%;
-  height: 40rem;
-  margin-left: 2rem;
+.txt-art, .txt-ef {
+  margin: 0 7rem 0 7rem;
 }
 
-.img-art {
-  width: 60%;
-  height: 40rem;
-  margin-right: 2rem;
+.img-ef, .img-art {
+  justify-content: center;
+  width: auto;
+  height: auto;
+  margin-left: 2rem;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  padding: auto;
 }
 
 @media (max-width: 1024px) {
@@ -128,62 +134,64 @@
     text-align: center;
   }
 
-  .img-ef, .img-art {
-    width: 90%;
+  .img-ef,
+  .img-art {
+    width: 100%;
     height: auto;
-    margin: 0 auto 2rem auto;
+    margin: 1rem auto;
   }
 
-  .p-text {
-    margin: 2rem;
-  }
-
-  .slider {
-    height: auto;
+  .txt-ef,
+  .txt-art {
+    margin: 1rem 0;
   }
 }
 
 @media (max-width: 768px) {
   .phome-intro {
     font-size: 1.1rem;
-    margin: 2rem;
+    line-height: 1.5rem;
+    margin: 2rem 1rem;
   }
 
   .title-home {
     font-size: 1.8rem;
-  }
-
-  .txt-ef, .txt-art {
-    margin: 1rem;
+    margin: 1rem 0;
   }
 
   .p-text {
     font-size: 1rem;
     margin: 1rem;
   }
-}
-
-@media (max-width: 480px) {
-  .container, .main-content {
-    padding: 1rem;
-    flex-direction: column;
-  }
 
   .slider {
     height: auto;
+    min-height: 20rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    flex-direction: column;
+    padding: 1rem;
   }
 
-  .img-ef, .img-art {
+  .slider img {
     width: 100%;
-    margin: 0 auto;
-  }
-
-  .p-text {
-    font-size: 0.9rem;
+    height: auto;
   }
 
   .title-home {
     font-size: 1.5rem;
     margin: 2rem 0;
+  }
+
+  .phome-intro {
+    font-size: 0.9rem;
+  }
+
+  .p-text {
+    font-size: 0.8rem;
+    margin: 0.5rem;
   }
 }

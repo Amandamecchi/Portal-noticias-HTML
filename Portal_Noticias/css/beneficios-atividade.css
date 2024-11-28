@@ -129,3 +129,93 @@ h2 {
     color: #333;
     margin: 1rem;
 }
+
+@media (max-width: 768px) {
+    .conteudo {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .piu2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .exercicio1, .exercicio {
+        flex: 1 1 100%;
+        padding: 5px;
+    }
+
+    .exercicio img, .exercicio3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .icones {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .icones img {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .conteudo {
+        padding: 15px;
+    }
+
+    .piu2 {
+        width: 80%;
+        height: auto;
+    }
+
+    .exercicio1, .exercicio {
+        flex: 1 1 45%;
+        padding: 8px;
+    }
+
+    .icones {
+        gap: 3rem;
+    }
+
+    .icones img {
+        height: 28px;
+        width: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteudo {
+        padding: 8px;
+    }
+
+    .piu2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .exercicio1, .exercicio {
+        flex: 1 1 100%;
+        padding: 5px;
+    }
+
+    .icones {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .icones img {
+        height: 20px;
+        width: 20px;
+    }
+}
