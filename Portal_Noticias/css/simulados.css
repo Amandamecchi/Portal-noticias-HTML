@@ -24,6 +24,7 @@
     display: flex;
     margin-block-end: 30px;
     margin-top: 1px;
+    cursor: pointer;
 }
 
 .container:hover {
