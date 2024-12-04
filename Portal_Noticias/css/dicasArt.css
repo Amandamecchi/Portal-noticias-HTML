@@ -36,7 +36,7 @@ body {
     font-size: 2rem;
     justify-content: center;
     display: flex;
-    margin: 20px;
+    margin: 4rem;
 }
 
 .arts-grid {
@@ -70,11 +70,6 @@ body {
 .art-item p {
     margin-top: 10px;
     font-weight: bold;
-}
-
-
-.arts-section {
-    height: 100vh;
 }
 
 .nav {
