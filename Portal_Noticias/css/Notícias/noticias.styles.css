@@ -78,6 +78,18 @@ main {
 }
 
 @media (max-width: 480px) {
+
+    .container-headerimg img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .container-header {
+        width: 100%;
+        height: auto;
+    }
+
+
     .noticia {
         gap: 10px;
         padding: 0 10px;
